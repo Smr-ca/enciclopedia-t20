@@ -1,0 +1,247 @@
+[
+  {
+    "ID_Origem": "ACOLITO",
+    "Nome": "Acólito",
+    "Descricao": "Serviu em uma ordem religiosa, ganhando conhecimento sobre orações e ensinamentos sagrados. Sua vida foi dedicada à fé, independentemente de ter se tornado um devoto.",
+    "Pericia_Adicional": "Cura, Religião, Vontade",
+    "Poder_Adicional": "Medicina, Membro da Igreja, Vontade de Ferro"
+  },
+  {
+    "ID_Origem": "AMIGO_DOS_ANIMAIS",
+    "Nome": "Amigo dos Animais",
+    "Descricao": "Possui uma conexão especial com animais, tendo trabalhado como cavalariço, criador de gado ou simplesmente nascido com um dom para compreendê-los e lidar com eles.",
+    "Pericia_Adicional": "Adestramento, Cavalgar",
+    "Poder_Adicional": "Amigo Especial"
+  },
+  {
+    "ID_Origem": "AMNESICO",
+    "Nome": "Amnésico",
+    "Descricao": "Perdeu a maior parte de sua memória, sabendo apenas o próprio nome (ou nem isso). Suas habilidades são intuitivas, e suas aventuras podem revelar pistas sobre seu misterioso passado.",
+    "Pericia_Adicional": null,
+    "Poder_Adicional": "Lembranças Graduais"
+  },
+  {
+    "ID_Origem": "ARISTOCRATA",
+    "Nome": "Aristocrata",
+    "Descricao": "Nascido na nobreza, recebeu uma educação sofisticada em áreas como política, cavalaria ou artes arcanas. Carrega o peso das expectativas de sua linhagem e possui contatos influentes.",
+    "Pericia_Adicional": "Diplomacia, Enganação, Nobreza",
+    "Poder_Adicional": "Comandar, Sangue Azul"
+  },
+  {
+    "ID_Origem": "ARTESAO",
+    "Nome": "Artesão",
+    "Descricao": "Treinado por um mestre ou guilda, dedicou-se a fabricar itens, desde vestes para nobres até armas letais. Suas habilidades manuais se provaram valiosas na vida de aventuras.",
+    "Pericia_Adicional": "Ofício, Vontade",
+    "Poder_Adicional": "Frutos do Trabalho, Sortudo"
+  },
+  {
+    "ID_Origem": "ARTISTA",
+    "Nome": "Artista",
+    "Descricao": "Possui um talento nato ou treinou exaustivamente para dominar uma forma de arte, como música, dança ou atuação. Sua arte serve como entretenimento e inspiração para outros.",
+    "Pericia_Adicional": "Atuação, Enganação",
+    "Poder_Adicional": "Atraente, Dom Artístico, Sortudo, Torcida"
+  },
+  {
+    "ID_Origem": "ASSISTENTE_DE_LABORATORIO",
+    "Nome": "Assistente de Laboratório",
+    "Descricao": "Trabalhou para um alquimista, inventor ou mago, lidando com ingredientes exóticos e experimentos perigosos. A exposição a substâncias instáveis pode ter afetado sua saúde ou despertado habilidades.",
+    "Pericia_Adicional": "Ofício (alquimista), Misticismo",
+    "Poder_Adicional": "Esse Cheiro..., Venefício, um poder da Tormenta a sua escolha"
+  },
+  {
+    "ID_Origem": "BATEDOR",
+    "Nome": "Batedor",
+    "Descricao": "Especialista em encontrar caminhos e guiar outros com segurança, seja em caravanas, exércitos ou como caçador de recompensas. Seu treinamento o tornou perito em sobrevivência e rastreamento.",
+    "Pericia_Adicional": "Furtividade, Percepção, Sobrevivência",
+    "Poder_Adicional": "À Prova de Tudo, Estilo de Disparo, Sentidos Aguçados"
+  },
+  {
+    "ID_Origem": "CAPANGA",
+    "Nome": "Capanga",
+    "Descricao": "Atuou como o músculo de uma guilda de ladrões ou gangue, usando sua força bruta para intimidar e resolver problemas. Embora tenha deixado essa vida, ainda sabe como \"convencer\" alguém.",
+    "Pericia_Adicional": "Luta, Intimidação",
+    "Poder_Adicional": "Confissão, um poder de combate a sua escolha"
+  },
+  {
+    "ID_Origem": "CHARLATAO",
+    "Nome": "Charlatão",
+    "Descricao": "Sempre teve talento para resolver problemas com lábia, honesta ou não. Sabe identificar os desejos e medos das pessoas, usando palavras para superar obstáculos com a mesma eficácia de armas.",
+    "Pericia_Adicional": "Enganação, Jogatina",
+    "Poder_Adicional": "Alpinista Social, Aparência Inofensiva, Sortudo"
+  },
+  {
+    "ID_Origem": "CIRCENSE",
+    "Nome": "Circense",
+    "Descricao": "Aprendeu acrobacias, malabarismo ou outra arte circense, seja por tradição familiar ou para sobreviver nas ruas. Suas aptidões únicas se mostram surpreendentemente úteis em aventuras.",
+    "Pericia_Adicional": "Acrobacia, Atuação, Reflexos",
+    "Poder_Adicional": "Acrobático, Torcida, Truque de Mágica"
+  },
+  {
+    "ID_Origem": "CRIMINOSO",
+    "Nome": "Criminoso",
+    "Descricao": "Por necessidade ou ambição, viveu como bandido, seja furtando, trapaceando ou até mesmo aceitando contratos de assassinato. A vida de aventureiro é uma chance de redenção ou apenas um novo alvo.",
+    "Pericia_Adicional": "Enganação, Furtividade, Ladinagem",
+    "Poder_Adicional": "Punguista, Venefício"
+  },
+  {
+    "ID_Origem": "CURANDEIRO",
+    "Nome": "Curandeiro",
+    "Descricao": "Seja como aprendiz de um curandeiro de vila ou com estudo formal, aprendeu a tratar ferimentos e doenças com remédios e tratamentos naturais, sem o uso de magia divina.",
+    "Pericia_Adicional": "Cura, Vontade",
+    "Poder_Adicional": "Medicina, Médico de Campo, Venefício"
+  },
+  {
+    "ID_Origem": "EREMITA",
+    "Nome": "Eremita",
+    "Descricao": "Passou parte de sua vida isolado da sociedade, seja por exílio, um chamado divino ou para praticar artes proibidas. A vida reclusa fortaleceu seu corpo e espírito.",
+    "Pericia_Adicional": "Misticismo, Religião, Sobrevivência",
+    "Poder_Adicional": "Busca Interior, Lobo Solitário"
+  },
+  {
+    "ID_Origem": "ESCRAVO",
+    "Nome": "Escravo",
+    "Descricao": "Nascido em cativeiro ou capturado, conheceu a brutalidade da escravidão. Seja como foragido ou liberto, sua experiência o tornou resistente e furtivo para sobreviver.",
+    "Pericia_Adicional": "Atletismo, Fortitude, Furtividade",
+    "Poder_Adicional": "Desejo de Liberdade, Vitalidade"
+  },
+  {
+    "ID_Origem": "ESTUDIOSO",
+    "Nome": "Estudioso",
+    "Descricao": "Dedicou longos anos de sua vida a livros e pergaminhos, adquirindo vasto conhecimento em áreas como história, tática ou artes arcanas. Agora, busca a experiência prática.",
+    "Pericia_Adicional": "Conhecimento, Guerra, Misticismo",
+    "Poder_Adicional": "Aparência Inofensiva, Palpite Fundamentado"
+  },
+  {
+    "ID_Origem": "FAZENDEIRO",
+    "Nome": "Fazendeiro",
+    "Descricao": "Trabalhou duro em campos, cultivando a terra ou criando animais. Viveu em contato com a natureza e aprendeu a se virar com o que tinha antes de partir para a aventura.",
+    "Pericia_Adicional": "Adestramento, Cavalgar, Ofício (fazendeiro), Sobrevivência",
+    "Poder_Adicional": "Água no Feijão, Ginete"
+  },
+  {
+    "ID_Origem": "FORASTEIRO",
+    "Nome": "Forasteiro",
+    "Descricao": "Vindo de terras distantes e de uma cultura desconhecida no Reinado, seus hábitos são considerados exóticos. Busca se adaptar ao novo lar ou encontrar o caminho de volta para casa.",
+    "Pericia_Adicional": "Cavalgar, Pilotagem, Sobrevivência",
+    "Poder_Adicional": "Cultura Exótica, Lobo Solitário"
+  },
+  {
+    "ID_Origem": "GLADIADOR",
+    "Nome": "Gladiador",
+    "Descricao": "Participou de combates em arenas, seja por fama, fortuna ou tradição familiar. Abandonou os aplausos para usar sua experiência em torneios para viver aventuras reais.",
+    "Pericia_Adicional": "Atuação, Luta",
+    "Poder_Adicional": "Atraente, Pão e Circo, Torcida, um poder de combate a sua escolha"
+  },
+  {
+    "ID_Origem": "GUARDA",
+    "Nome": "Guarda",
+    "Descricao": "Atuou como agente da lei, fazendo rondas tediosas e lidando com bêbados. Recebeu treinamento em combate e investigação antes de abandonar a milícia pela vida de aventureiro.",
+    "Pericia_Adicional": "Investigação, Luta, Percepção",
+    "Poder_Adicional": "Detetive, Investigador, um poder de combate a sua escolha"
+  },
+  {
+    "ID_Origem": "HERDEIRO",
+    "Nome": "Herdeiro",
+    "Descricao": "Pertence a uma linhagem tradicional de nobres, mercadores, conjuradores ou outra atividade. Recebeu treinamento e equipamentos adequados, mas agora questiona se deve seguir esse caminho.",
+    "Pericia_Adicional": "Misticismo, Nobreza, Ofício",
+    "Poder_Adicional": "Comandar, Herança"
+  },
+  {
+    "ID_Origem": "HEROI_CAMPONES",
+    "Nome": "Herói Camponês",
+    "Descricao": "Era o campeão de seu povoado, defendendo-o de monstros e desastres. Amado por todos, partiu para uma vida de aventuras em busca de feitos ainda maiores.",
+    "Pericia_Adicional": "Adestramento, Ofício",
+    "Poder_Adicional": "Coração Heroico, Sortudo, Surto Heroico, Torcida"
+  },
+  {
+    "ID_Origem": "MARUJO",
+    "Nome": "Marujo",
+    "Descricao": "Trabalhou como tripulante em uma embarcação, seja um barco pesqueiro, navio pirata ou até mesmo um dirigível goblin. Sua vida foi passada nos mares e rios de Arton.",
+    "Pericia_Adicional": "Atletismo, Jogatina, Pilotagem",
+    "Poder_Adicional": "Acrobático, Passagem de Navio"
+  },
+  {
+    "ID_Origem": "MATEIRO",
+    "Nome": "Mateiro",
+    "Descricao": "Aprendeu desde cedo a caçar animais selvagens para sustento ou esporte. Habilidoso em rastrear presas e colocar armadilhas, decidiu aplicar suas técnicas contra monstros.",
+    "Pericia_Adicional": "Atletismo, Furtividade, Sobrevivência",
+    "Poder_Adicional": "Lobo Solitário, Sentidos Aguçados, Vendedor de Carcaças"
+  },
+  {
+    "ID_Origem": "MEMBRO_DE_GUILDA",
+    "Nome": "Membro de Guilda",
+    "Descricao": "Foi parte de uma grande guilda, seja de artesãos, magos, criminosos ou aventureiros. A organização forneceu treinamento e equipamento em troca de sua lealdade e serviços.",
+    "Pericia_Adicional": "Diplomacia, Enganação, Misticismo, Ofício",
+    "Poder_Adicional": "Foco em Perícia, Rede de Contatos"
+  },
+  {
+    "ID_Origem": "MERCADOR",
+    "Nome": "Mercador",
+    "Descricao": "Atuou como comerciante, seja em uma tenda, caravana ou no prestigioso mercado de Vectora. Anos de negociações e viagens lhe renderam equipamento e dinheiro para iniciar uma nova carreira.",
+    "Pericia_Adicional": "Diplomacia, Intuição, Ofício",
+    "Poder_Adicional": "Negociação, Proficiência, Sortudo"
+  },
+  {
+    "ID_Origem": "MINERADOR",
+    "Nome": "Minerador",
+    "Descricao": "Trabalhou nas profundezas da terra em busca de metais e gemas preciosas. A vida perigosa nos subterrâneos lhe rendeu bens valiosos e conhecimento sobre túneis e masmorras.",
+    "Pericia_Adicional": "Atletismo, Fortitude, Ofício (minerador)",
+    "Poder_Adicional": "Ataque Poderoso, Escavador, Sentidos Aguçados"
+  },
+  {
+    "ID_Origem": "NOMADE",
+    "Nome": "Nômade",
+    "Descricao": "Nunca pertenceu a um só lugar, viajando constantemente com sua família em caravanas, peregrinações ou como parte de um povo sem terra. A estrada é seu verdadeiro lar.",
+    "Pericia_Adicional": "Cavalgar, Pilotagem, Sobrevivência",
+    "Poder_Adicional": "Lobo Solitário, Mochileiro, Sentidos Aguçados"
+  },
+  {
+    "ID_Origem": "PIVETE",
+    "Nome": "Pivete",
+    "Descricao": "Cresceu nas ruas, aprendendo a sobreviver pedindo esmolas, roubando bolsas ou cumprindo tarefas para bandidos. A vida de aventureiro foi sua única chance de uma vida melhor.",
+    "Pericia_Adicional": "Furtividade, Iniciativa, Ladinagem",
+    "Poder_Adicional": "Acrobático, Aparência Inofensiva, Quebra-Galho"
+  },
+  {
+    "ID_Origem": "REFUGIADO",
+    "Nome": "Refugiado",
+    "Descricao": "Sobreviveu a uma grande guerra ou tragédia, como a queda de Lenórienn ou a destruição de Tamu-ra. O trauma e as provações o tornaram um sobrevivente tenaz e amargurado.",
+    "Pericia_Adicional": "Fortitude, Reflexos, Vontade",
+    "Poder_Adicional": "Estoico, Vontade de Ferro"
+  },
+  {
+    "ID_Origem": "SEGUIDOR",
+    "Nome": "Seguidor",
+    "Descricao": "Viveu na companhia de um herói, atuando como escudeiro, criado ou ajudante. Essa experiência lhe proporcionou aprendizado valioso e uma lembrança de seu antigo mestre.",
+    "Pericia_Adicional": "Adestramento, Ofício",
+    "Poder_Adicional": "Antigo Mestre, Proficiência, Surto Heroico"
+  },
+  {
+    "ID_Origem": "SELVAGEM",
+    "Nome": "Selvagem",
+    "Descricao": "Nascido em uma tribo bárbara ou criado por animais em uma região remota. Sua origem é exótica, talvez até divina ou demoníaca, e a civilização ainda é um mistério para você.",
+    "Pericia_Adicional": "Percepção, Reflexos, Sobrevivência",
+    "Poder_Adicional": "Lobo Solitário, Vida Rústica, Vitalidade"
+  },
+  {
+    "ID_Origem": "SOLDADO",
+    "Nome": "Soldado",
+    "Descricao": "Alistou-se em um grande exército, onde recebeu treinamento em combate e equipamento. Seja como desertor ou dispensado com honras, abandonou a vida militar pela de aventureiro.",
+    "Pericia_Adicional": "Fortitude, Guerra, Luta, Pontaria",
+    "Poder_Adicional": "Influência Militar, um poder de combate a sua escolha"
+  },
+  {
+    "ID_Origem": "TAVERNEIRO",
+    "Nome": "Taverneiro",
+    "Descricao": "Trabalhou em um estabelecimento frequentado por aventureiros, ouvindo suas histórias e bravatas. Cansado de limpar canecas, decidiu buscar sua própria fortuna e fama.",
+    "Pericia_Adicional": "Diplomacia, Jogatina, Ofício (cozinheiro)",
+    "Poder_Adicional": "Gororoba, Proficiência, Vitalidade"
+  },
+  {
+    "ID_Origem": "TRABALHADOR",
+    "Nome": "Trabalhador",
+    "Descricao": "De origem humilde, trabalhou duro desde jovem em tarefas braçais, como carregar pedras, puxar arados ou transportar cargas. A carreira de aventureiro pareceu muito mais atraente.",
+    "Pericia_Adicional": "Atletismo, Fortitude",
+    "Poder_Adicional": "Atlético, Esforçado"
+  }
+]
