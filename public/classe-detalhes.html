@@ -6,27 +6,21 @@
     <title>Detalhes da Classe</title>
 </head>
 <body>
-    <header>
-        <a href="/">← Voltar</a>
-    </header>
-    <main>
-        <h1 id="classe-nome"></h1>
-        <p id="classe-descricao"></p>
-        
-        <h2>Estatísticas</h2>
-        <ul>
-            <li>**PV Inicial:** <span id="classe-pv-inicial"></span></li>
-            <li>**PV por Nível:** <span id="classe-pv-por-nivel"></span></li>
-            <li>**PM Inicial:** <span id="classe-pm-inicial"></span></li>
-            <li>**PM por Nível:** <span id="classe-pm-por-nivel"></span></li>
-        </ul>
+    <a href="/classe.html">← Voltar para a lista de classes</a>
+    <h1 id="classe-nome">Carregando...</h1>
+    <p id="classe-descricao"></p>
+    
+    <h2>Estatísticas</h2>
+    <ul>
+        <li><strong>PV Inicial:</strong> <span id="classe-pv-inicial"></span></li>
+        <li><strong>PV por Nível:</strong> <span id="classe-pv-por-nivel"></span></li>
+        <li><strong>PM Inicial:</strong> <span id="classe-pm-inicial"></span></li>
+        <li><strong>PM por Nível:</strong> <span id="classe-pm-por-nivel"></span></li>
+    </ul>
 
-        <div id="habilidades-container">
-            <h2>Habilidades</h2>
-            <div id="habilidades-lista"></div>
-        </div>
-    </main>
+    <h2>Habilidades de Classe</h2>
+    <div id="habilidades-lista"></div>
 
-    <script src="classe-detalhes.js"></script>
+    <script src="classe-detalhes.js" defer></script>
 </body>
 </html>

@@ -1,5 +1,4 @@
-// classe-detalhes.js (CORRIGIDO)
-async function fetchAndDisplayClasse() {
+document.addEventListener('DOMContentLoaded', async () => {
     try {
         const params = new URLSearchParams(window.location.search);
         const classeId = params.get('id');
@@ -9,41 +8,46 @@ async function fetchAndDisplayClasse() {
             return;
         }
 
-        // CORREÇÃO AQUI: Apontando para os arquivos JSON corretos
-        const [classesResponse, habilidadesResponse, ligacaoResponse] = await Promise.all([
-            fetch('/classes.json'), // <--- CORRIGIDO
-            fetch('/habilidadedeclasse.json'), // <--- CORRIGIDO
-            fetch('/classehabilidade.json') // <--- CORRIGIDO
+        const [classesRes, habilidadesRes, ligacaoRes] = await Promise.all([
+            fetch('/classes.json'),
+            fetch('/habilidadesdeclasse.json'),
+            fetch('/classehabilidade.json')
         ]);
 
-        const classes = await classesResponse.json();
-        const habilidades = await habilidadesResponse.json();
-        const ligacoes = await ligacaoResponse.json();
+        if (!classesRes.ok) throw new Error('classes.json não encontrado');
+        if (!habilidadesRes.ok) throw new Error('habilidadesdeclasse.json não encontrado');
+        if (!ligacaoRes.ok) throw new Error('classehabilidade.json não encontrado');
+
+        const classes = await classesRes.json();
+        const habilidades = await habilidadesRes.json();
+        const ligacoes = await ligacaoRes.json();
 
         const classe = classes.find(c => c.ID_Classe === classeId);
 
         if (classe) {
+            document.title = classe.Nome;
             document.getElementById('classe-nome').textContent = classe.Nome;
-            // Assumindo que você tem elementos com esses IDs no seu HTML
-            // document.getElementById('classe-descricao').textContent = classe.Descricao;
-            // ... (preencha os outros campos como PV, PM, etc.)
+            document.getElementById('classe-descricao').textContent = classe.Descricao;
+            document.getElementById('classe-pv-inicial').textContent = classe.PV_Inicial;
+            document.getElementById('classe-pv-por-nivel').textContent = classe.PV_por_Nivel;
+            document.getElementById('classe-pm-inicial').textContent = classe.PM_Inicial;
+            document.getElementById('classe-pm-por-nivel').textContent = classe.PM_por_Nivel;
 
-            const habilidadesDaClasse = ligacoes
-                .filter(ligacao => ligacao.ID_Classe === classeId)
-                .map(ligacao => {
-                    const habilidade = habilidades.find(h => h.ID_Habilidade === ligacao.ID_Habilidade);
-                    return { ...habilidade, Nivel_Adquirido: ligacao.Nivel_Adquirido };
-                });
+            const habilidadesContainer = document.getElementById('habilidades-lista');
+            habilidadesContainer.innerHTML = '';
 
-            const habilidadesLista = document.getElementById('habilidades-lista');
-            habilidadesLista.innerHTML = ''; // Limpa a lista antes de adicionar
-            habilidadesDaClasse.forEach(habilidade => {
-                const habilidadeDiv = document.createElement('div');
-                habilidadeDiv.innerHTML = `
-                    <h3>${habilidade.Nome} (Nível ${habilidade.Nivel_Adquirido})</h3>
-                    <p>${habilidade.Descricao}</p>
-                `;
-                habilidadesLista.appendChild(habilidadeDiv);
+            const idsHabilidadesDaClasse = ligacoes.filter(l => l.ID_Classe === classeId);
+            
+            idsHabilidadesDaClasse.forEach(ligacao => {
+                const habilidade = habilidades.find(h => h.ID_Habilidade === ligacao.ID_Habilidade);
+                if (habilidade) {
+                    const habilidadeDiv = document.createElement('div');
+                    habilidadeDiv.innerHTML = `
+                        <h3>${habilidade.Nome} (Nível ${ligacao.Nivel_Adquirido})</h3>
+                        <p>${habilidade.Descricao}</p>
+                    `;
+                    habilidadesContainer.appendChild(habilidadeDiv);
+                }
             });
 
         } else {
@@ -52,7 +56,6 @@ async function fetchAndDisplayClasse() {
 
     } catch (error) {
         console.error('Erro ao buscar os detalhes da classe:', error);
+        document.getElementById('classe-nome').textContent = 'Erro ao carregar. Verifique o console (F12).';
     }
-}
-
-fetchAndDisplayClasse();
+});

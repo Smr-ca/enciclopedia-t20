@@ -1,0 +1,457 @@
+[
+  {
+    "ID_Habilidade": "CAMINHO_DO_ARCANISTA",
+    "Nome": "Caminho do Arcanista",
+    "Descricao": "A magia é um poder incrível, capaz de alterar a realidade. Esse poder tem fontes distintas e cada uma opera conforme suas próprias regras. Escolha uma das opções a seguir. Uma vez feita, essa escolha não pode ser mudada.\n\n• Bruxo. Você lança magias através de um foco — uma varinha, cajado, chapéu... Para lançar uma magia, você precisa empunhar o foco com uma mão (e gesticular com a outra) ou fazer um teste de Misticismo (CD 20+ o custo em PM da magia; se falhar, a magia não funciona, mas você gasta os PM mesmo assim). O foco tem RD 10 e PV iguais à metade dos seus, independentemente de seu material ou forma. Se for danificado, é totalmente restaurado na próxima vez que você recuperar seus PM por descanso. Se for destruído (reduzido a 0 PV), você fica atordoado por uma rodada. Você pode recuperar um foco destruído ou perdido com uma semana de trabalho e T$ 100. Seu atributo-chave para magias é Inteligência.\n\n• Feiticeiro. Você lança magias através de um poder inato que corre em seu sangue. Escolha uma linhagem como origem de seus poderes (veja a página 39). Você recebe a herança básica da linhagem escolhida. Você não depende de nenhum item ou estudo, mas sua capacidade de aprender magias é limitada — você aprende uma magia nova a cada nível ímpar (3º, 5º, 7º etc.), em vez de a cada nível. Seu atributo-chave para magias é Carisma.\n\n• Mago. Você lança magias através de estudo e memorização de fórmulas arcanas. Você só pode lançar magias memorizadas; suas outras magias não podem ser lançadas, mesmo que você tenha pontos de mana para tal. Para memorizar magias, você precisa estudar seu grimório por uma hora. Quando faz isso, escolhe metade das magias que conhece (por exemplo, se conhece 7 magias, escolhe 3). Essas serão suas magias memorizadas. Você pode memorizar magias uma vez por dia. Caso não possa estudar (por não ter tempo, por ter perdido o grimório...), não poderá trocar suas magias memorizadas. Um grimório tem as mesmas estatísticas de um foco (veja acima) e pode ser recuperado da mesma forma. Você começa com uma magia adicional (para um total de 4) e, sempre que ganha acesso a um novo círculo de magias, aprende uma magia adicional daquele círculo. Seu atributo-chave para magias é Inteligência."
+  },
+  {
+    "ID_Habilidade": "MAGIAS_ARCANISTA",
+    "Nome": "Magias",
+    "Descricao": "Você pode lançar magias arcanas de 1º círculo. A cada quatro níveis, pode lançar magias de um círculo maior (2º círculo no 5º nível, 3º círculo no 9º nível e assim por diante).\n\nVocê começa com três magias de 1º círculo. A cada nível, aprende uma magia de qualquer círculo que possa lançar.\n\nSeu atributo-chave para lançar magias é definido pelo seu Caminho (veja acima) e você soma seu atributo-chave no seu total de PM. Veja o CAPÍTULO 4 para as regras de magia."
+  },
+  {
+    "ID_Habilidade": "ALTA_ARCANA",
+    "Nome": "Alta Arcana",
+    "Descricao": "No 20º nível, seu domínio das artes arcanas é total. O custo em PM de suas magias arcanas é reduzido à metade (após aplicar aprimoramentos e quaisquer outros efeitos que reduzam custo)."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nome": "Poder de Arcanista",
+    "Descricao": "Você ganha um poder da lista de Arcanista."
+  },
+  {
+    "ID_Habilidade": "FURIA",
+    "Nome": "Fúria",
+    "Descricao": "Você pode gastar 2 PM para invocar uma fúria selvagem. Você recebe +2 em testes de ataque e rolagens de dano corpo a corpo, mas não pode fazer nenhuma ação que exija calma e concentração (como usar a perícia Furtividade ou lançar magias). A cada cinco níveis, pode gastar +1 PM para aumentar os bônus em +1.\n\nA Fúria termina se, ao fim da rodada, você não tiver atacado nem sido alvo de um efeito (ataque, habilidade, magia...) hostil."
+  },
+  {
+    "ID_Habilidade": "INSTINTO_SELVAGEM",
+    "Nome": "Instinto Selvagem",
+    "Descricao": "No 3º nível, você recebe +1 em rolagens de dano, Percepção e Reflexos. A cada seis níveis, esse bônus aumenta em +1."
+  },
+  {
+    "ID_Habilidade": "REDUCAO_DE_DANO_BARBARO",
+    "Nome": "Redução de Dano",
+    "Descricao": "A partir do 5º nível, graças a seu vigor e força de vontade, você ignora parte de seus ferimentos. Você recebe redução de dano 2 (todo dano que sofre é reduzido em 2). A cada três níveis, sua RD aumenta em 2, até um máximo de RD 10 no 17º nível."
+  },
+  {
+    "ID_Habilidade": "FURIA_TITANICA",
+    "Nome": "Fúria Titânica",
+    "Descricao": "No 20º nível, o bônus que você recebe nos testes de ataque e rolagens de dano quando usa Fúria é dobrado. Por exemplo, se gastar 5 PM, em vez de um bônus de +5, recebe um bônus de +10."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nome": "Poder de Bárbaro",
+    "Descricao": "Você ganha um poder da lista de Bárbaro."
+  },
+  {
+    "ID_Habilidade": "INSPIRACAO_BARDO",
+    "Nome": "Inspiração",
+    "Descricao": "Você pode gastar uma ação padrão e 2 PM para inspirar as pessoas com sua arte. Você e todos os seus aliados em alcance curto ganham +1 em testes de perícia até o fim da cena. A cada quatro níveis, pode gastar +2 PM para aumentar o bônus em +1."
+  },
+  {
+    "ID_Habilidade": "MAGIAS_BARDO",
+    "Nome": "Magias",
+    "Descricao": "Escolha três escolas de magia. Uma vez feita, essa escolha não pode ser mudada. Você pode lançar magias arcanas de 1º círculo que pertençam a essas escolas. À medida que sobe de nível, pode lançar magias de círculos maiores (2º círculo no 6º nível, 3º círculo no 10º nível e 4º círculo no 14º nível).\n\nVocê começa com duas magias de 1º círculo. A cada nível par (2º, 4º etc.), aprende uma magia de qualquer círculo e escola que possa lançar. Você pode lançar essas magias vestindo armaduras leves sem precisar de testes de Misticismo.\n\nSeu atributo-chave para lançar magias é Carisma e você soma seu Carisma no seu total de PM. Veja o CAPÍTULO 4 para as regras de magia."
+  },
+  {
+    "ID_Habilidade": "ECLETICO",
+    "Nome": "Eclético",
+    "Descricao": "A partir do 2º nível, quando vai fazer um teste de perícia, você pode gastar 1 PM para receber os benefícios de ser treinado nessa perícia para este teste."
+  },
+  {
+    "ID_Habilidade": "ARTISTA_COMPLETO",
+    "Nome": "Artista Completo",
+    "Descricao": "No 20º nível, você pode usar Inspiração como uma ação livre. Enquanto estiver sob efeito de sua Inspiração, suas habilidades de bardo (incluindo magias) têm seu custo em PM reduzido pela metade (após aplicar aprimoramentos e quaisquer outros efeitos que reduzam custo)."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nome": "Poder de Bardo",
+    "Descricao": "Você ganha um poder da lista de Bardo."
+  },
+  {
+    "ID_Habilidade": "AUDACIA",
+    "Nome": "Audácia",
+    "Descricao": "Quando faz um teste de perícia, você pode gastar 2 PM para somar seu Carisma no teste. Você não pode usar esta habilidade em testes de ataque."
+  },
+  {
+    "ID_Habilidade": "INSOLENCIA",
+    "Nome": "Insolência",
+    "Descricao": "Você soma seu Carisma na Defesa, limitado pelo seu nível. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
+  },
+  {
+    "ID_Habilidade": "EVASAO_BUCANEIRO",
+    "Nome": "Evasão",
+    "Descricao": "A partir do 2º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
+  },
+  {
+    "ID_Habilidade": "ESQUIVA_SAGAZ",
+    "Nome": "Esquiva Sagaz",
+    "Descricao": "No 3º nível, você recebe +1 na Defesa e em Reflexos. Esse bônus aumenta em +1 a cada quatro níveis. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
+  },
+  {
+    "ID_Habilidade": "PANACHE",
+    "Nome": "Panache",
+    "Descricao": "A partir do 5º nível, sempre que faz um acerto crítico em combate ou reduz um inimigo a 0 PV, você recupera 1 PM."
+  },
+  {
+    "ID_Habilidade": "EVASAO_APRIMORADA_BUCANEIRO",
+    "Nome": "Evasão Aprimorada",
+    "Descricao": "A partir do 10º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
+  },
+  {
+    "ID_Habilidade": "SORTE_DE_NIMB",
+    "Nome": "Sorte de Nimb",
+    "Descricao": "No 20º nível, você encara os piores desafios e ri na cara deles pois sabe que tem a sorte ao seu lado. Quando faz um teste, você pode gastar 5 PM para rolá-lo novamente. Qualquer resultado 11 ou mais na segunda rolagem será considerado um 20 natural."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nome": "Poder de Bucaneiro",
+    "Descricao": "Você ganha um poder da lista de Bucaneiro."
+  },
+  {
+    "ID_Habilidade": "MARCA_DA_PRESA",
+    "Nome": "Marca da Presa",
+    "Descricao": "Você pode gastar uma ação de movimento e 1 PM para analisar uma criatura em alcance curto. Até o fim da cena, você recebe +1d4 nas rolagens de dano contra essa criatura. A cada quatro níveis, você pode gastar +1 PM para aumentar o bônus de dano (veja a tabela da classe)."
+  },
+  {
+    "ID_Habilidade": "RASTREADOR",
+    "Nome": "Rastreador",
+    "Descricao": "Você recebe +2 em Sobrevivência. Além disso, pode se mover com seu deslocamento normal enquanto rastreia sem sofrer penalidades no teste de Sobrevivência."
+  },
+  {
+    "ID_Habilidade": "EXPLORADOR",
+    "Nome": "Explorador",
+    "Descricao": "No 3º nível, escolha um tipo de terreno entre aquático, ártico, colina, deserto, floresta, montanha, pântano, planície, subterrâneo ou urbano. A partir do 11º nível, você também pode escolher área de Tormenta. Quando estiver no tipo de terreno escolhido, você soma sua Sabedoria (mínimo +1) na Defesa e nos testes de Acrobacia, Atletismo, Furtividade, Percepção e Sobrevivência. A cada quatro níveis, escolha outro tipo de terreno para receber o bônus ou aumente o bônus em um tipo de terreno já escolhido em +2."
+  },
+  {
+    "ID_Habilidade": "CAMINHO_DO_EXPLORADOR",
+    "Nome": "Caminho do Explorador",
+    "Descricao": "No 5º nível, você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento e a CD para rastrear você aumenta em +10. Esta habilidade só funciona em terrenos nos quais você tenha a habilidade Explorador."
+  },
+  {
+    "ID_Habilidade": "MESTRE_CACADOR",
+    "Nome": "Mestre Caçador",
+    "Descricao": "No 20º nível, você pode usar a habilidade Marca da Presa como uma ação livre. Além disso, quando usa a habilidade, pode pagar 5 PM para aumentar sua margem de ameaça contra a criatura em +2. Se você reduz uma criatura contra a qual usou Marca da Presa a 0 pontos de vida, recupera 5 PM."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nome": "Poder de Caçador",
+    "Descricao": "Você ganha um poder da lista de Caçador."
+  },
+  {
+    "ID_Habilidade": "BALUARTE",
+    "Nome": "Baluarte",
+    "Descricao": "Quando sofre um ataque ou faz um teste de resistência, você pode gastar 1 PM para receber +2 na Defesa e nos testes de resistência até o início do seu próximo turno. A cada quatro níveis, pode gastar +1 PM para aumentar o bônus em +2.\n\nA partir do 7º nível, quando usa esta habilidade, você pode gastar 2 PM adicionais para fornecer o mesmo bônus a todos os aliados adjacentes. Por exemplo, pode gastar 4 PM ao todo para receber +4 na Defesa e nos testes de resistência e fornecer este mesmo bônus aos outros. A partir do 15º nível, você pode gastar 5 PM adicionais para fornecer o mesmo bônus a todos os aliados em alcance curto."
+  },
+  {
+    "ID_Habilidade": "CODIGO_DE_HONRA",
+    "Nome": "Código de Honra",
+    "Descricao": "Cavaleiros distinguem-se de meros combatentes por seguir um código de conduta. Fazem isto para mostrar que estão acima dos mercenários e bandoleiros que infestam os campos de batalha. Você não pode atacar um oponente pelas costas (em termos de jogo, não pode se beneficiar do bônus de flanquear), caído, desprevenido ou incapaz de lutar. Se violar o código, você perde todos os seus PM e só pode recuperá-los a partir do próximo dia. Rebaixar-se ao nível dos covardes e desesperados abala a autoconfiança que eleva o cavaleiro."
+  },
+  {
+    "ID_Habilidade": "DUELO",
+    "Nome": "Duelo",
+    "Descricao": "A partir do 2º nível, você pode gastar 2 PM para escolher um oponente em alcance curto e receber +2 em testes de ataque e rolagens de dano contra ele até o fim da cena. Se atacar outro oponente, o bônus termina. A cada cinco níveis, você pode gastar +1 PM para aumentar o bônus em +1."
+  },
+  {
+    "ID_Habilidade": "CAMINHO_DO_CAVALEIRO",
+    "Nome": "Caminho do Cavaleiro",
+    "Descricao": "No 5º nível, escolha entre Bastião ou Montaria.\n\n• Bastião. Se estiver usando armadura pesada, você recebe redução de dano 5 (cumulativa com a RD fornecida por Especialização em Armadura).\n\n• Montaria. Você recebe um cavalo de guerra com o qual possui +5 em testes de Adestramento e Cavalgar. Ele fornece os benefícios de um parceiro veterano de seu tipo. No 11º nível, passa a fornecer os benefícios de um parceiro mestre. De acordo com o mestre, você pode receber outro tipo de montaria. Veja a lista de montarias na página 261. Caso a montaria morra, você pode comprar outra pelo preço normal e treiná-la para receber os benefícios desta habilidade com uma semana de trabalho."
+  },
+  {
+    "ID_Habilidade": "RESOLUTO",
+    "Nome": "Resoluto",
+    "Descricao": "A partir do 11° nível, você pode gastar 1 PM para refazer um teste de resistência contra uma condição (como abalado, paralisado etc.) que o esteja afetando. O segundo teste recebe um bônus de +5 e, se você passar, cancela o efeito. Você só pode usar esta habilidade uma vez por efeito."
+  },
+  {
+    "ID_Habilidade": "BRAVURA_FINAL",
+    "Nome": "Bravura Final",
+    "Descricao": "No 20º nível, sua virtude vence a morte. Se for reduzido a 0 ou menos PV, pode gastar 3 PM para continuar consciente e de pé. Esta habilidade tem duração sustentada. Quando se encerra, você sofre os efeitos de seus PV atuais, podendo cair inconsciente ou mesmo morrer."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nome": "Poder de Cavaleiro",
+    "Descricao": "Você ganha um poder da lista de Cavaleiro."
+  },
+  {
+    "ID_Habilidade": "DEVOTO_FIEL_CLERIGO",
+    "Nome": "Devoto Fiel",
+    "Descricao": "Você se torna devoto de um deus maior. Veja as regras de devotos na página 96. Ao contrário de devotos normais, você recebe dois poderes concedidos por se tornar devoto, em vez de apenas um.\n\nComo alternativa, você pode cultuar o Panteão como um todo. Não recebe nenhum Poder Concedido, mas sua única obrigação e restrição é não usar armas cortantes ou perfurantes (porque derramam sangue, algo que clérigos do Panteão consideram proibido). Sua arma preferida é a maça e você pode canalizar energia positiva ou negativa a sua escolha (uma vez feita, essa escolha não pode ser mudada). Cultuar o Panteão conta como sua devoção."
+  },
+  {
+    "ID_Habilidade": "MAGIAS_CLERIGO",
+    "Nome": "Magias",
+    "Descricao": "Você pode lançar magias divinas de 1º círculo. A cada quatro níveis, pode lançar magias de um círculo maior (2º círculo no 5º nível, 3º círculo no 9º nível e assim por diante).\n\nVocê começa com três magias de 1º círculo. A cada nível, aprende uma magia de qualquer círculo que possa lançar.\n\nSeu atributo-chave para lançar magias é Sabedoria e você soma sua Sabedoria no seu total de PM. Veja o CAPÍTULO 4 para as regras de magia."
+  },
+  {
+    "ID_Habilidade": "MAO_DA_DIVINDADE",
+    "Nome": "Mão da Divindade",
+    "Descricao": "No 20º nível, você pode gastar uma ação completa e 15 PM para canalizar energia divina. Ao fazer isso, você lança três magias divinas quaisquer (de qualquer círculo, incluindo magias que você não conhece), como uma ação livre e sem gastar PM (mas ainda precisa pagar outros custos). Você pode aplicar aprimoramentos, mas precisa pagar por eles. Após usar esta habilidade, você fica atordoado por 1d4 rodadas (mesmo se for imune a esta condição). Corpos mortais não foram feitos para lidar com tanto poder."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nome": "Poder de Clérigo",
+    "Descricao": "Você ganha um poder da lista de Clérigo."
+  },
+  {
+    "ID_Habilidade": "DEVOTO_FIEL_DRUIDA",
+    "Nome": "Devoto Fiel",
+    "Descricao": "Você se torna devoto de um deus disponível para druidas (Allihanna, Megalokk ou Oceano). Veja as regras de devotos na página 96. Ao contrário de devotos normais, você recebe dois poderes concedidos por se tornar devoto, em vez de apenas um."
+  },
+  {
+    "ID_Habilidade": "EMPATIA_SELVAGEM_DRUIDA",
+    "Nome": "Empatia Selvagem",
+    "Descricao": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento com animais para mudar atitude e persuasão (veja a página 118)."
+  },
+  {
+    "ID_Habilidade": "MAGIAS_DRUIDA",
+    "Nome": "Magias",
+    "Descricao": "Escolha três escolas de magia. Uma vez feita, essa escolha não pode ser mudada. Você pode lançar magias divinas de 1º círculo que pertençam a essas escolas. À medida que sobe de nível, pode lançar magias de círculos maiores (2º círculo no 6º nível, 3º círculo no 10º nível e 4º círculo no 14º nível).\n\nVocê começa com duas magias de 1º círculo. A cada nível par (2º, 4º etc.), aprende uma magia de qualquer círculo e escola que possa lançar.\n\nSeu atributo-chave para lançar magias é Sabedoria e você soma sua Sabedoria no seu total de PM. Veja o CAPÍTULO 4 para as regras de magia."
+  },
+  {
+    "ID_Habilidade": "CAMINHO_DOS_ERMOS",
+    "Nome": "Caminho dos Ermos",
+    "Descricao": "No 2º nível, você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento e a CD para rastreá-lo aumenta em +10. Esta habilidade só funciona em terrenos naturais."
+  },
+  {
+    "ID_Habilidade": "FORCA_DA_NATUREZA",
+    "Nome": "Força da Natureza",
+    "Descricao": "No 20º nível, você diminui o custo de todas as suas magias em -2 PM e aumenta a CD delas em +2. Os bônus dobram (-4 PM e +4 na CD) se você estiver em terrenos naturais."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nome": "Poder de Druida",
+    "Descricao": "Você ganha um poder da lista de Druida."
+  },
+  {
+    "ID_Habilidade": "ATAQUE_ESPECIAL",
+    "Nome": "Ataque Especial",
+    "Descricao": "Quando faz um ataque, você pode gastar 1 PM para receber +4 no teste de ataque ou na rolagem de dano. A cada quatro níveis, pode gastar +1 PM para aumentar o bônus em +4. Você pode dividir os bônus igualmente. Por exemplo, no 17° nível, pode gastar 5 PM para receber +20 no ataque, +20 no dano ou +10 no ataque e + 10 no dano."
+  },
+  {
+    "ID_Habilidade": "DURAO",
+    "Nome": "Durão",
+    "Descricao": "A partir do 3º nível, sua rijeza muscular permite que você absorva ferimentos. Sempre que sofre dano, você pode gastar 3 PM para reduzir esse dano à metade."
+  },
+  {
+    "ID_Habilidade": "ATAQUE_EXTRA",
+    "Nome": "Ataque Extra",
+    "Descricao": "A partir do 6º nível, quando usa a ação agredir, você pode gastar 2 PM para realizar um ataque adicional uma vez por rodada."
+  },
+  {
+    "ID_Habilidade": "CAMPEAO",
+    "Nome": "Campeão",
+    "Descricao": "No 20º nível, o dano de todos os seus ataques aumenta em um passo. Além disso, sempre que você faz um Ataque Especial ou um Golpe Pessoal e acerta o ataque, recupera metade dos PM gastos nele. Por exemplo, se fizer um Ataque Especial gastando 5 PM para ganhar +20 nas rolagens de dano e acertar o ataque, recupera 2 PM."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nome": "Poder de Guerreiro",
+    "Descricao": "Você ganha um poder da lista de Guerreiro."
+  },
+  {
+    "ID_Habilidade": "ENGENHOSIDADE",
+    "Nome": "Engenhosidade",
+    "Descricao": "Quando faz um teste de perícia, você pode gastar 2 PM para somar a sua Inteligência no teste. Você não pode usar esta habilidade em testes de ataque."
+  },
+  {
+    "ID_Habilidade": "PROTOTIPO",
+    "Nome": "Protótipo",
+    "Descricao": "Você começa o jogo com um item superior, ou com 10 itens alquímicos, com preço total de até T$ 500. Veja o CAPÍTULO 3: EQUIPAMENTO para a lista de itens."
+  },
+  {
+    "ID_Habilidade": "FABRICAR_ITEM_SUPERIOR",
+    "Nome": "Fabricar Item Superior",
+    "Descricao": "No 2º nível, você recebe um item superior com preço de até T$ 2.000 e passa a poder fabricar itens superiores com uma melhoria. Veja o CAPÍTULO 3: EQUIPAMENTO para a lista de melhorias.\n\nNos níveis 5, 8 e 11, você pode substituir esse item por um item superior com duas, três e quatro melhorias, respectivamente, e passa a poder fabricar itens superiores com essa quantidade de melhorias. Considera-se que você estava trabalhando nos itens e você não gasta dinheiro ou tempo neles (mas gasta em itens que fabricar futuramente)."
+  },
+  {
+    "ID_Habilidade": "COMERCIANTE",
+    "Nome": "Comerciante",
+    "Descricao": "No 3º nível, você pode vender itens 10% mais caro (não cumulativo com barganha)."
+  },
+  {
+    "ID_Habilidade": "ENCONTRAR_FRAQUEZA",
+    "Nome": "Encontrar Fraqueza",
+    "Descricao": "A partir do 7º nível, você pode gastar uma ação de movimento e 2 PM para analisar um objeto em alcance curto. Se fizer isso, ignora a redução de dano dele. Você também pode usar esta habilidade para encontrar uma fraqueza em um inimigo. Se ele estiver de armadura ou for um construto, você recebe +2 em seus testes de ataque contra ele. Os benefícios desta habilidade duram até o fim da cena."
+  },
+  {
+    "ID_Habilidade": "FABRICAR_ITEM_MAGICO",
+    "Nome": "Fabricar Item Mágico",
+    "Descricao": "No 9º nível, você recebe um item mágico menor e passa a poder fabricar itens mágicos menores. Veja o CAPÍTULO 8: RECOMPENSAS para as regras de itens mágicos.\n\nNos níveis 13 e 17, você pode substituir esse item por um item mágico médio e maior, respectivamente, e passa a poder fabricar itens mágicos dessas categorias. Considera-se que você estava trabalhando nos itens que recebe e você não gasta dinheiro, tempo ou pontos de mana neles (mas gasta em itens que fabricar futuramente)."
+  },
+  {
+    "ID_Habilidade": "OLHO_DO_DRAGAO",
+    "Nome": "Olho do Dragão",
+    "Descricao": "A partir do 10º nível, você pode gastar uma ação completa para analisar um item. Você automaticamente descobre se o item é mágico, suas propriedades e como utilizá-las."
+  },
+  {
+    "ID_Habilidade": "OBRA-PRIMA",
+    "Nome": "Obra-Prima",
+    "Descricao": "No 20 nível, você fabrica sua obra-prima, aquela pela qual seu nome será lembrado em eras futuras. Você é livre para criar as regras do item, mas ele deve ser aprovado pelo mestre. Como linha geral, ele pode ter benefícios equivalentes a de um item com cinco melhorias e quatro encantos. Considera-se que você estava trabalhando no item e você não gasta dinheiro, tempo ou PM nele."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nome": "Poder de Inventor",
+    "Descricao": "Você ganha um poder da lista de Inventor."
+  },
+  {
+    "ID_Habilidade": "ATAQUE_FURTIVO",
+    "Nome": "Ataque Furtivo",
+    "Descricao": "Você sabe atingir os pontos vitais de inimigos distraídos. Uma vez por rodada, quando atinge uma criatura desprevenida com um ataque corpo a corpo ou em alcance curto, ou uma criatura que esteja flanqueando, você causa 1d6 pontos de dano extra. A cada dois níveis, esse dano extra aumenta em +1d6. Uma criatura imune a acertos críticos também é imune a ataques furtivos."
+  },
+  {
+    "ID_Habilidade": "ESPECIALISTA",
+    "Nome": "Especialista",
+    "Descricao": "Escolha um número de perícias treinadas igual a sua Inteligência, exceto bônus temporários (mínimo 1). Ao fazer um teste de uma dessas perícias, você pode gastar 1 PM para dobrar seu bônus de treinamento. Você não pode usar esta habilidade em testes de ataque."
+  },
+  {
+    "ID_Habilidade": "EVASAO_LADINO",
+    "Nome": "Evasão",
+    "Descricao": "A partir do 2º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
+  },
+  {
+    "ID_Habilidade": "ESQUIVA_SOBRENATURAL",
+    "Nome": "Esquiva Sobrenatural",
+    "Descricao": "No 4º nível, seus instintos são tão apurados que você consegue reagir ao perigo antes que seus sentidos percebam. Você nunca fica surpreendido."
+  },
+  {
+    "ID_Habilidade": "OLHOS_NAS_COSTAS",
+    "Nome": "Olhos nas Costas",
+    "Descricao": "A partir do 8º nível, você consegue lutar contra diversos inimigos como se fossem apenas um. Você não pode ser flanqueado."
+  },
+  {
+    "ID_Habilidade": "EVASAO_APRIMORADA_LADINO",
+    "Nome": "Evasão Aprimorada",
+    "Descricao": "No 10º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
+  },
+  {
+    "ID_Habilidade": "A_PESSOA_CERTA_PARA_O_TRABALHO",
+    "Nome": "A Pessoa Certa para o Trabalho",
+    "Descricao": "No 20º nível, você se torna um mestre da ladinagem. Ao fazer um ataque furtivo ou usar uma perícia da lista de ladino, você pode gastar 5 PM para receber +10 no teste."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nome": "Poder de Ladino",
+    "Descricao": "Você ganha um poder da lista de Ladino."
+  },
+  {
+    "ID_Habilidade": "BRIGA",
+    "Nome": "Briga",
+    "Descricao": "Seus ataques desarmados causam 1d6 pontos de dano e podem causar dano letal ou não letal (sem penalidades). A cada quatro níveis, seu dano desarmado aumenta, conforme a tabela.\n\nO dano na tabela é para criaturas Pequenas e Médias. Criaturas Minúsculas diminuem esse dano em um passo, Grandes e Enormes aumentam em um passo e Colossais aumentam em dois passos."
+  },
+  {
+    "ID_Habilidade": "GOLPE_RELAMPAGO",
+    "Nome": "Golpe Relâmpago",
+    "Descricao": "Quando usa a ação agredir para fazer um ataque desarmado, você pode gastar 1 PM para realizar um ataque desarmado adicional."
+  },
+  {
+    "ID_Habilidade": "CASCA_GROSSA",
+    "Nome": "Casca Grossa",
+    "Descricao": "No 3º nível, você soma sua Constituição na Defesa, limitado pelo seu nível e apenas se não estiver usando armadura pesada. Além disso, no 7º nível, e a cada quatro níveis, você recebe +1 na Defesa."
+  },
+  {
+    "ID_Habilidade": "GOLPE_CRUEL",
+    "Nome": "Golpe Cruel",
+    "Descricao": "No 5º nível, você acerta onde dói. Sua margem de ameaça com ataques desarmados aumenta em +1."
+  },
+  {
+    "ID_Habilidade": "GOLPE_VIOLENTO",
+    "Nome": "Golpe Violento",
+    "Descricao": "No 9º nível, você bate com muita força. Seu multiplicador de crítico com ataques desarmados aumenta em +1."
+  },
+  {
+    "ID_Habilidade": "DONO_DA_RUA",
+    "Nome": "Dono da Rua",
+    "Descricao": "No 20º nível, seu dano desarmado aumenta para 2d10 (para criaturas Médias). Além disso, quando usa a ação agredir para fazer um ataque desarmado, você pode fazer dois ataques, em vez de um (podendo usar Golpe Relâmpago para fazer um terceiro)."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nome": "Poder de Lutador",
+    "Descricao": "Você ganha um poder da lista de Lutador."
+  },
+  {
+    "ID_Habilidade": "AUTOCONFIANCA",
+    "Nome": "Autoconfiança",
+    "Descricao": "Você pode usar seu Carisma em vez de Destreza na Defesa (mas continua não podendo somar um atributo na Defesa quando usa armadura pesada)."
+  },
+  {
+    "ID_Habilidade": "ESPOLIO",
+    "Nome": "Espólio",
+    "Descricao": "Você recebe um item a sua escolha com preço de até T$ 2.000."
+  },
+  {
+    "ID_Habilidade": "ORGULHO",
+    "Nome": "Orgulho",
+    "Descricao": "Quando faz um teste de perícia, você pode gastar uma quantidade de PM a sua escolha (limitado pelo seu Carisma). Para cada PM que gastar, recebe +2 no teste."
+  },
+  {
+    "ID_Habilidade": "PALAVRAS_AFIADAS",
+    "Nome": "Palavras Afiadas",
+    "Descricao": "No 2º nível, você pode gastar uma ação padrão e 1 PM para fazer um teste de Diplomacia ou Intimidação oposto ao teste de Vontade de uma criatura inteligente (Int-3 ou maior) em alcance curto. Se vencer, você causa 2d6 pontos de dano psíquico não letal à criatura. Se perder, causa metade deste dano. Se a criatura for reduzida a 0 ou menos PV, em vez de cair inconsciente, ela se rende (se você usou Diplomacia) ou fica apavorada e foge de você da maneira mais eficiente possível (se usou Intimidação). A cada quatro níveis, você pode gastar +1 PM para aumentar o dano (veja a tabela da classe)."
+  },
+  {
+    "ID_Habilidade": "RIQUEZA",
+    "Nome": "Riqueza",
+    "Descricao": "No 3º nível, você passa a receber dinheiro de sua família, patrono ou negócios. Uma vez por aventura, pode fazer um teste de Carisma com um bônus igual ao seu nível de nobre. Você recebe um número de Tibares de ouro igual ao resultado do teste. Assim, um nobre de 5º nível com Carisma 4 que role 13 no dado recebe 22 TO. O uso desta habilidade é condicionado a sua relação com sua família, patrono ou negócios e a onde você está. Por exemplo, um nobre viajando pelos ermos, isolado da civilização, dificilmente teria como receber dinheiro."
+  },
+  {
+    "ID_Habilidade": "GRITAR_ORDENS",
+    "Nome": "Gritar Ordens",
+    "Descricao": "A partir do 4º nível, você pode gastar uma quantidade de PM a sua escolha (limitado pelo seu Carisma). Até o início de seu próximo turno, todos os seus aliados em alcance curto recebem um bônus nos testes de perícia igual à quantidade de PM que você gastou."
+  },
+  {
+    "ID_Habilidade": "PRESENCA_ARISTOCRATICA",
+    "Nome": "Presença Aristocrática",
+    "Descricao": "A partir do 5° nível, sempre que uma criatura inteligente tentar machucá-lo (causar dano com um ataque, magia ou habilidade) você pode gastar 2 PM. Se fizer isso, a criatura deve fazer um teste de Vontade (CD Car). Se falhar, não conseguirá machucá-lo e perderá a ação. Você só pode usar esta habilidade uma vez por cena contra cada criatura."
+  },
+  {
+    "ID_Habilidade": "REALEZA",
+    "Nome": "Realeza",
+    "Descricao": "No 20º nível, a CD para resistir a sua Presença Aristocrática aumenta em +5 e uma criatura que falhe no teste de Vontade por 10 ou mais se arrepende tanto de ter tentado machucá-lo que passa a lutar ao seu lado (e seguir suas ordens, se puder entendê-lo) pelo resto da cena. Além disso, uma criatura que seja reduzida a 0 PV por Palavras Afiadas não sofre este dano; em vez disso, passa a lutar ao seu lado pelo resto da cena."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nome": "Poder de Nobre",
+    "Descricao": "Você ganha um poder da lista de Nobre."
+  },
+  {
+    "ID_Habilidade": "ABENCOADO",
+    "Nome": "Abençoado",
+    "Descricao": "Você soma seu Carisma no seu total de pontos de mana no 1º nível. Além disso, torna-se devoto de um deus disponível para paladinos (Azgher, Khalmyr, Lena, Lin-Wu, Marah, Tanna-Toh, Thyatis, Valkaria). Veja as regras de devotos na página 96. Ao contrário de devotos normais, você recebe dois poderes concedidos por se tornar devoto, em vez de apenas um.\n\nComo alternativa, você pode ser um paladino do bem, lutando em prol da bondade e da justiça como um todo. Não recebe nenhum Poder Concedido, mas não precisa seguir nenhuma Obrigação & Restrição (além do Código do Herói, abaixo). Cultuar o bem conta como sua devoção."
+  },
+  {
+    "ID_Habilidade": "CODIGO_DO_HEROI",
+    "Nome": "Código do Herói",
+    "Descricao": "Você deve sempre manter sua palavra e nunca pode recusar um pedido de ajuda de alguém inocente. Além disso, nunca pode mentir, trapacear ou roubar. Se violar o código, você perde todos os seus PM e só pode recuperá-los a partir do próximo dia."
+  },
+  {
+    "ID_Habilidade": "GOLPE_DIVINO",
+    "Nome": "Golpe Divino",
+    "Descricao": "Quando faz um ataque corpo a corpo, você pode gastar 2 PM para desferir um golpe destruidor. Você soma seu Carisma no teste de ataque e +1d8 na rolagem de dano. A cada quatro níveis, pode gastar +1 PM para aumentar o dano em +1d8."
+  },
+  {
+    "ID_Habilidade": "CURA_PELAS_MAOS",
+    "Nome": "Cura Pelas Mãos",
+    "Descricao": "A partir do 2º nível, você pode gastar uma ação de movimento e 1 PM para curar 1d8+1 pontos de vida por luz em um alvo em alcance corpo a corpo (incluindo você). A cada quatro níveis, você pode gastar +1 PM para aumentar os PV curados em +1d8+1. Esta habilidade causa dano de luz a mortos-vivos (CD Car).\n\nA partir do 6º nível, você pode gastar +1 PM quando usa Cura pelas Mãos para anular uma condição afetando o alvo, entre abalado, apavorado, atordoado, cego, doente, exausto, fatigado ou surdo."
+  },
+  {
+    "ID_Habilidade": "AURA_SAGRADA",
+    "Nome": "Aura Sagrada",
+    "Descricao": "No 3º nível, você pode gastar 1 PM para gerar uma aura com 9m de raio a partir de você e duração sustentada. A aura emite uma luz dourada e agradável. Além disso, você e os aliados dentro da aura somam seu Carisma nos testes de resistência."
+  },
+  {
+    "ID_Habilidade": "BENCAO_DA_JUSTICA",
+    "Nome": "Bênção da Justiça",
+    "Descricao": "No 5º nível, escolha entre égide sagrada e montaria sagrada. Uma vez feita, esta escolha não pode ser mudada.\n\n• Égide Sagrada. Você pode gastar uma ação de movimento e 2 PM para recobrir de energia seu escudo ou símbolo sagrado. Até o fim da cena, você e todos os aliados adjacentes somam seu Carisma na Defesa (cumulativo com outros efeitos). A partir do 11º nível, quando faz um teste de resistência contra uma magia lançada contra você, você pode gastar 5 PM para rolá-lo novamente. Se você passar no teste de resistência e a magia tiver você como único alvo, ela é revertida de volta ao conjurador (que se torna o novo alvo da magia; todas as demais características da magia, incluindo CD do teste de resistência, se mantêm).\n\n• Montaria Sagrada. Você pode gastar uma ação de movimento e 2 PM para invocar uma montaria sagrada. Veja o quadro para mais detalhes."
+  },
+  {
+    "ID_Habilidade": "VINGADOR_SAGRADO",
+    "Nome": "Vingador Sagrado",
+    "Descricao": "No 20º nível, você pode gastar uma ação completa e 10 PM para se cobrir de energia divina, assumindo a forma de um vingador sagrado até o fim da cena. Nesta forma, você recebe deslocamento de voo 18m e redução de dano 20. Além disso, seu Golpe Divino tem seu custo reduzido à metade e causa mais dois dados de dano."
+  },
+  {
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nome": "Poder de Paladino",
+    "Descricao": "Você ganha um poder da lista de Paladino."
+  }
+]

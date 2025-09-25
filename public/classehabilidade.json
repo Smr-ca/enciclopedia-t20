@@ -6,22 +6,7 @@
   },
   {
     "ID_Classe": "ARCANISTA",
-    "ID_Habilidade": "BRUXO",
-    "Nivel_Adquirido": 1
-  },
-  {
-    "ID_Classe": "ARCANISTA",
-    "ID_Habilidade": "FEITICEIRO",
-    "Nivel_Adquirido": 1
-  },
-  {
-    "ID_Classe": "ARCANISTA",
-    "ID_Habilidade": "MAGO",
-    "Nivel_Adquirido": 1
-  },
-  {
-    "ID_Classe": "ARCANISTA",
-    "ID_Habilidade": "MAGIAS",
+    "ID_Habilidade": "MAGIAS_ARCANISTA",
     "Nivel_Adquirido": 1
   },
   {
@@ -31,7 +16,97 @@
   },
   {
     "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 19
+  },
+  {
+    "ID_Classe": "ARCANISTA",
     "ID_Habilidade": "ALTA_ARCANA",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
     "Nivel_Adquirido": 20
   },
   {
@@ -51,8 +126,93 @@
   },
   {
     "ID_Classe": "BARBARO",
-    "ID_Habilidade": "REDUCAO_DE_DANO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "REDUCAO_DE_DANO_BARBARO",
     "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 19
   },
   {
     "ID_Classe": "BARBARO",
@@ -60,19 +220,19 @@
     "Nivel_Adquirido": 20
   },
   {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 20
+  },
+  {
     "ID_Classe": "BARDO",
-    "ID_Habilidade": "INSPIRACAO",
+    "ID_Habilidade": "INSPIRACAO_BARDO",
     "Nivel_Adquirido": 1
   },
   {
     "ID_Classe": "BARDO",
-    "ID_Habilidade": "MAGIAS",
+    "ID_Habilidade": "MAGIAS_BARDO",
     "Nivel_Adquirido": 1
-  },
-  {
-    "ID_Classe": "BARDO",
-    "ID_Habilidade": "PODER_DE_BARDO",
-    "Nivel_Adquirido": 2
   },
   {
     "ID_Classe": "BARDO",
@@ -81,7 +241,102 @@
   },
   {
     "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 19
+  },
+  {
+    "ID_Classe": "BARDO",
     "ID_Habilidade": "ARTISTA_COMPLETO",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
     "Nivel_Adquirido": 20
   },
   {
@@ -96,7 +351,7 @@
   },
   {
     "ID_Classe": "BUCANEIRO",
-    "ID_Habilidade": "EVASAO",
+    "ID_Habilidade": "EVASAO_BUCANEIRO",
     "Nivel_Adquirido": 2
   },
   {
@@ -111,17 +366,107 @@
   },
   {
     "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
     "ID_Habilidade": "PANACHE",
     "Nivel_Adquirido": 5
   },
   {
     "ID_Classe": "BUCANEIRO",
-    "ID_Habilidade": "EVASAO_APRIMORADA",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "EVASAO_APRIMORADA_BUCANEIRO",
     "Nivel_Adquirido": 10
   },
   {
     "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 19
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
     "ID_Habilidade": "SORTE_DE_NIMB",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
     "Nivel_Adquirido": 20
   },
   {
@@ -146,8 +491,93 @@
   },
   {
     "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "CACADOR",
     "ID_Habilidade": "CAMINHO_DO_EXPLORADOR",
     "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 19
   },
   {
     "ID_Classe": "CACADOR",
@@ -155,13 +585,18 @@
     "Nivel_Adquirido": 20
   },
   {
-    "ID_Classe": "CAVALEIRO",
-    "ID_Habilidade": "CODIGO_DE_HONRA",
-    "Nivel_Adquirido": 1
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 20
   },
   {
     "ID_Classe": "CAVALEIRO",
     "ID_Habilidade": "BALUARTE",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "CODIGO_DE_HONRA",
     "Nivel_Adquirido": 1
   },
   {
@@ -176,8 +611,48 @@
   },
   {
     "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
     "ID_Habilidade": "CAMINHO_DO_CAVALEIRO",
     "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 10
   },
   {
     "ID_Classe": "CAVALEIRO",
@@ -186,17 +661,67 @@
   },
   {
     "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 19
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
     "ID_Habilidade": "BRAVURA_FINAL",
     "Nivel_Adquirido": 20
   },
   {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 20
+  },
+  {
     "ID_Classe": "CLERIGO",
-    "ID_Habilidade": "DEVOTO_FIEL",
+    "ID_Habilidade": "DEVOTO_FIEL_CLERIGO",
     "Nivel_Adquirido": 1
   },
   {
     "ID_Classe": "CLERIGO",
-    "ID_Habilidade": "MAGIAS",
+    "ID_Habilidade": "MAGIAS_CLERIGO",
     "Nivel_Adquirido": 1
   },
   {
@@ -206,28 +731,113 @@
   },
   {
     "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 19
+  },
+  {
+    "ID_Classe": "CLERIGO",
     "ID_Habilidade": "MAO_DA_DIVINDADE",
     "Nivel_Adquirido": 20
   },
   {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 20
+  },
+  {
     "ID_Classe": "DRUIDA",
-    "ID_Habilidade": "DEVOTO_FIEL",
+    "ID_Habilidade": "DEVOTO_FIEL_DRUIDA",
     "Nivel_Adquirido": 1
   },
   {
     "ID_Classe": "DRUIDA",
-    "ID_Habilidade": "EMPATIA_SELVAGEM",
+    "ID_Habilidade": "EMPATIA_SELVAGEM_DRUIDA",
     "Nivel_Adquirido": 1
   },
   {
     "ID_Classe": "DRUIDA",
-    "ID_Habilidade": "MAGIAS",
+    "ID_Habilidade": "MAGIAS_DRUIDA",
     "Nivel_Adquirido": 1
-  },
-  {
-    "ID_Classe": "DRUIDA",
-    "ID_Habilidade": "PODER_DE_DRUIDA",
-    "Nivel_Adquirido": 2
   },
   {
     "ID_Classe": "DRUIDA",
@@ -236,7 +846,102 @@
   },
   {
     "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 19
+  },
+  {
+    "ID_Classe": "DRUIDA",
     "ID_Habilidade": "FORCA_DA_NATUREZA",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
     "Nivel_Adquirido": 20
   },
   {
@@ -256,12 +961,102 @@
   },
   {
     "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "GUERREIRO",
     "ID_Habilidade": "ATAQUE_EXTRA",
     "Nivel_Adquirido": 6
   },
   {
     "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 19
+  },
+  {
+    "ID_Classe": "GUERREIRO",
     "ID_Habilidade": "CAMPEAO",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
     "Nivel_Adquirido": 20
   },
   {
@@ -291,12 +1086,47 @@
   },
   {
     "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "INVENTOR",
     "ID_Habilidade": "ENCONTRAR_FRAQUEZA",
     "Nivel_Adquirido": 7
   },
   {
     "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "INVENTOR",
     "ID_Habilidade": "FABRICAR_ITEM_MAGICO",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
     "Nivel_Adquirido": 9
   },
   {
@@ -306,7 +1136,62 @@
   },
   {
     "ID_Classe": "INVENTOR",
-    "ID_Habilidade": "OBRA_PRIMA",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 19
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "OBRA-PRIMA",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
     "Nivel_Adquirido": 20
   },
   {
@@ -321,7 +1206,7 @@
   },
   {
     "ID_Classe": "LADINO",
-    "ID_Habilidade": "EVASAO",
+    "ID_Habilidade": "EVASAO_LADINO",
     "Nivel_Adquirido": 2
   },
   {
@@ -331,8 +1216,33 @@
   },
   {
     "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "LADINO",
     "ID_Habilidade": "ESQUIVA_SOBRENATURAL",
     "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 7
   },
   {
     "ID_Classe": "LADINO",
@@ -341,12 +1251,77 @@
   },
   {
     "ID_Classe": "LADINO",
-    "ID_Habilidade": "EVASAO_APRIMORADA",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "EVASAO_APRIMORADA_LADINO",
     "Nivel_Adquirido": 10
   },
   {
     "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 19
+  },
+  {
+    "ID_Classe": "LADINO",
     "ID_Habilidade": "A_PESSOA_CERTA_PARA_O_TRABALHO",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
     "Nivel_Adquirido": 20
   },
   {
@@ -371,8 +1346,38 @@
   },
   {
     "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "LUTADOR",
     "ID_Habilidade": "GOLPE_CRUEL",
     "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 8
   },
   {
     "ID_Classe": "LUTADOR",
@@ -381,7 +1386,67 @@
   },
   {
     "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 19
+  },
+  {
+    "ID_Classe": "LUTADOR",
     "ID_Habilidade": "DONO_DA_RUA",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
     "Nivel_Adquirido": 20
   },
   {
@@ -391,7 +1456,7 @@
   },
   {
     "ID_Classe": "NOBRE",
-    "ID_Habilidade": "ESPLIO",
+    "ID_Habilidade": "ESPOLIO",
     "Nivel_Adquirido": 1
   },
   {
@@ -401,12 +1466,12 @@
   },
   {
     "ID_Classe": "NOBRE",
-    "ID_Habilidade": "PODER_DE_NOBRE",
+    "ID_Habilidade": "PALAVRAS_AFIADAS",
     "Nivel_Adquirido": 2
   },
   {
     "ID_Classe": "NOBRE",
-    "ID_Habilidade": "PALAVRAS_AFIADAS",
+    "ID_Habilidade": "PODER_DE_NOBRE",
     "Nivel_Adquirido": 2
   },
   {
@@ -416,7 +1481,17 @@
   },
   {
     "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "NOBRE",
     "ID_Habilidade": "GRITAR_ORDENS",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
     "Nivel_Adquirido": 4
   },
   {
@@ -426,7 +1501,87 @@
   },
   {
     "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 19
+  },
+  {
+    "ID_Classe": "NOBRE",
     "ID_Habilidade": "REALEZA",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
     "Nivel_Adquirido": 20
   },
   {
@@ -461,12 +1616,102 @@
   },
   {
     "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "PALADINO",
     "ID_Habilidade": "BENCAO_DA_JUSTICA",
     "Nivel_Adquirido": 5
   },
   {
     "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 12
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 13
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 14
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 15
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 16
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 17
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 18
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 19
+  },
+  {
+    "ID_Classe": "PALADINO",
     "ID_Habilidade": "VINGADOR_SAGRADO",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
     "Nivel_Adquirido": 20
   }
 ]
