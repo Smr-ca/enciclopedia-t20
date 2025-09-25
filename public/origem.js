@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         origens.forEach(origem => {
             const origemCard = document.createElement('div');
-            origemCard.className = 'origem-card'; // Para estilização futura
-            origemCard.style.marginBottom = '2em'; // Adiciona um espaço entre os cards
+            origemCard.className = 'origem-card';
+            origemCard.style.marginBottom = '2em'; 
 
             const nome = document.createElement('h2');
             nome.textContent = origem.nome;
@@ -25,13 +25,19 @@ document.addEventListener('DOMContentLoaded', () => {
             const descricao = document.createElement('p');
             descricao.textContent = origem.descricao;
 
+            // ===== INÍCIO DA CORREÇÃO =====
             const pericias = document.createElement('p');
-            pericias.innerHTML = `<strong>Perícias:</strong> ${origem.pericias.join(', ')}`;
+            // Agora verificamos se a lista de perícias existe e não está vazia
+            if (origem.pericias && origem.pericias.length > 0) {
+                pericias.innerHTML = `<strong>Perícias:</strong> ${origem.pericias.join(', ')}`;
+            } else {
+                pericias.innerHTML = `<strong>Perícias:</strong> Nenhuma`;
+            }
+            // ===== FIM DA CORREÇÃO =====
 
             const poderesContainer = document.createElement('p');
             poderesContainer.innerHTML = '<strong>Poderes:</strong> ';
             
-            // Cria os links para os poderes
             if (origem.poderes_id && origem.poderes_id.length > 0) {
                 origem.poderes_id.forEach((poderId, index) => {
                     const poder = poderesMap.get(poderId);
@@ -41,7 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         linkPoder.textContent = poder.nome;
                         poderesContainer.appendChild(linkPoder);
 
-                        // Adiciona vírgula entre os poderes, menos no último
                         if (index < origem.poderes_id.length - 1) {
                             poderesContainer.append(', ');
                         }
