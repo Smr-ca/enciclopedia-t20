@@ -32,6 +32,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             document.getElementById('classe-pv-por-nivel').textContent = classe.PV_por_Nivel;
             document.getElementById('classe-pm-inicial').textContent = classe.PM_Inicial;
             document.getElementById('classe-pm-por-nivel').textContent = classe.PM_por_Nivel;
+            
+            // LINHA MODIFICADA PARA ADICIONAR AS PROFICIÊNCIAS
+            document.getElementById('classe-proficiencias').textContent = classe.Proficiencias;
 
             const habilidadesContainer = document.getElementById('habilidades-lista');
             habilidadesContainer.innerHTML = '';
