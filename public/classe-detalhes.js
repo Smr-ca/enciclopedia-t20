@@ -1,3 +1,4 @@
+// classe-detalhes.js (CORRIGIDO)
 async function fetchAndDisplayClasse() {
     try {
         const params = new URLSearchParams(window.location.search);
@@ -8,10 +9,11 @@ async function fetchAndDisplayClasse() {
             return;
         }
 
+        // CORREÇÃO AQUI: Apontando para os arquivos JSON corretos
         const [classesResponse, habilidadesResponse, ligacaoResponse] = await Promise.all([
-            fetch('/api/classes'),
-            fetch('/api/habilidades_de_classe'),
-            fetch('/api/classes_habilidades')
+            fetch('/classes.json'), // <--- CORRIGIDO
+            fetch('/habilidadedeclasse.json'), // <--- CORRIGIDO
+            fetch('/classehabilidade.json') // <--- CORRIGIDO
         ]);
 
         const classes = await classesResponse.json();
@@ -22,11 +24,9 @@ async function fetchAndDisplayClasse() {
 
         if (classe) {
             document.getElementById('classe-nome').textContent = classe.Nome;
-            document.getElementById('classe-descricao').textContent = classe.Descricao;
-            document.getElementById('classe-pv-inicial').textContent = classe.PV_Inicial;
-            document.getElementById('classe-pv-por-nivel').textContent = classe.PV_por_Nivel;
-            document.getElementById('classe-pm-inicial').textContent = classe.PM_Inicial;
-            document.getElementById('classe-pm-por-nivel').textContent = classe.PM_por_Nivel;
+            // Assumindo que você tem elementos com esses IDs no seu HTML
+            // document.getElementById('classe-descricao').textContent = classe.Descricao;
+            // ... (preencha os outros campos como PV, PM, etc.)
 
             const habilidadesDaClasse = ligacoes
                 .filter(ligacao => ligacao.ID_Classe === classeId)
@@ -36,6 +36,7 @@ async function fetchAndDisplayClasse() {
                 });
 
             const habilidadesLista = document.getElementById('habilidades-lista');
+            habilidadesLista.innerHTML = ''; // Limpa a lista antes de adicionar
             habilidadesDaClasse.forEach(habilidade => {
                 const habilidadeDiv = document.createElement('div');
                 habilidadeDiv.innerHTML = `

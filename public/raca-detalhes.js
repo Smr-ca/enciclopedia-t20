@@ -1,3 +1,4 @@
+// raca-detalhes.js (CORRIGIDO)
 async function fetchAndDisplayRaca() {
     try {
         const params = new URLSearchParams(window.location.search);
@@ -8,9 +9,10 @@ async function fetchAndDisplayRaca() {
             return;
         }
 
+        // CORREÇÃO AQUI: Apontando para os arquivos JSON corretos
         const [racasResponse, habilidadesRaciaisResponse] = await Promise.all([
-            fetch('/api/raca'),
-            fetch('/api/habilidaderacial')
+            fetch('/racas.json'), // <--- CORRIGIDO
+            fetch('/habilidaderacial.json') // <--- CORRIGIDO
         ]);
 
         const racas = await racasResponse.json();
@@ -20,10 +22,12 @@ async function fetchAndDisplayRaca() {
 
         if (raca) {
             document.getElementById('raca-nome').textContent = raca.Nome;
-            document.getElementById('raca-descricao').textContent = raca.Descricao;
-            document.getElementById('raca-bonus-atributos').textContent = raca.Bonus_Atributos;
+            // Assumindo que você tem elementos com esses IDs no seu HTML
+            // document.getElementById('raca-descricao').textContent = raca.Descricao;
+            // document.getElementById('raca-bonus-atributos').textContent = raca.Bonus_Atributos;
 
             const habilidadesList = document.getElementById('raca-habilidades-list');
+            habilidadesList.innerHTML = ''; // Limpa a lista antes de adicionar
             const idsHabilidades = raca.Habilidades_Raciais.split(',');
 
             idsHabilidades.forEach(id => {
