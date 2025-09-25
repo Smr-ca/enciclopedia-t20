@@ -1,5 +1,4 @@
-// raca-detalhes.js (CORRIGIDO)
-async function fetchAndDisplayRaca() {
+document.addEventListener('DOMContentLoaded', async () => {
     try {
         const params = new URLSearchParams(window.location.search);
         const racaId = params.get('id');
@@ -9,11 +8,13 @@ async function fetchAndDisplayRaca() {
             return;
         }
 
-        // CORREÇÃO AQUI: Apontando para os arquivos JSON corretos
         const [racasResponse, habilidadesRaciaisResponse] = await Promise.all([
-            fetch('/racas.json'), // <--- CORRIGIDO
-            fetch('/habilidaderacial.json') // <--- CORRIGIDO
+            fetch('/racas.json'),
+            fetch('/habilidaderacial.json')
         ]);
+
+        if (!racasResponse.ok) throw new Error('Erro 404 - racas.json não encontrado');
+        if (!habilidadesRaciaisResponse.ok) throw new Error('Erro 404 - habilidaderacial.json não encontrado');
 
         const racas = await racasResponse.json();
         const habilidadesRaciais = await habilidadesRaciaisResponse.json();
@@ -21,16 +22,16 @@ async function fetchAndDisplayRaca() {
         const raca = racas.find(r => r.ID_Raca === racaId);
 
         if (raca) {
+            document.title = raca.Nome; // Atualiza o título da aba do navegador
             document.getElementById('raca-nome').textContent = raca.Nome;
-            // Assumindo que você tem elementos com esses IDs no seu HTML
-            // document.getElementById('raca-descricao').textContent = raca.Descricao;
-            // document.getElementById('raca-bonus-atributos').textContent = raca.Bonus_Atributos;
+            document.getElementById('raca-descricao').textContent = raca.Descricao;
+            document.getElementById('raca-bonus-atributos').textContent = raca.Bonus_Atributos;
 
             const habilidadesList = document.getElementById('raca-habilidades-list');
-            habilidadesList.innerHTML = ''; // Limpa a lista antes de adicionar
-            const idsHabilidades = raca.Habilidades_Raciais.split(',');
+            habilidadesList.innerHTML = ''; // Limpa a lista
 
-            idsHabilidades.forEach(id => {
+            // Para cada ID de habilidade na raça, encontre a habilidade completa
+            raca.Habilidades_Raciais.forEach(id => {
                 const habilidade = habilidadesRaciais.find(h => h.ID_Habilidade_Racial === id.trim());
                 if (habilidade) {
                     const listItem = document.createElement('li');
@@ -45,7 +46,6 @@ async function fetchAndDisplayRaca() {
 
     } catch (error) {
         console.error('Erro ao buscar os detalhes da raça:', error);
+        document.getElementById('raca-nome').textContent = 'Erro ao carregar. Verifique o console (F12).';
     }
-}
-
-fetchAndDisplayRaca();
+});
