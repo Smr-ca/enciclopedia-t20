@@ -3,39 +3,45 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Carrega os dois arquivos JSON ao mesmo tempo
     Promise.all([
-        fetch('origem.json').then(res => res.json()),
-        fetch('poderes.json').then(res => res.json())
+        fetch('/origem.json').then(res => res.json()),
+        fetch('/poderes.json').then(res => res.json())
     ])
     .then(([origens, poderes]) => {
+        if (!origens || !poderes) {
+            throw new Error('Falha ao carregar um dos arquivos JSON.');
+        }
+
         // Cria um mapa para encontrar poderes por ID rapidamente
         const poderesMap = new Map(poderes.map(p => [p.id, p]));
 
         origens.forEach(origem => {
             const origemCard = document.createElement('div');
-            origemCard.className = 'origem-card';
+            origemCard.className = 'origem-card'; // Para estilização futura
+            origemCard.style.marginBottom = '2em'; // Adiciona um espaço entre os cards
 
             const nome = document.createElement('h2');
-            nome.textContent = origem.Nome;
+            nome.textContent = origem.nome;
 
             const descricao = document.createElement('p');
-            descricao.textContent = origem.Descricao;
+            descricao.textContent = origem.descricao;
 
             const pericias = document.createElement('p');
-            pericias.innerHTML = `<strong>Perícias:</strong> ${origem.Pericia_Adicional || 'Nenhuma'}`;
+            pericias.innerHTML = `<strong>Perícias:</strong> ${origem.pericias.join(', ')}`;
 
             const poderesContainer = document.createElement('p');
             poderesContainer.innerHTML = '<strong>Poderes:</strong> ';
             
-            // Aqui está a mágica do link
+            // Cria os links para os poderes
             if (origem.poderes_id && origem.poderes_id.length > 0) {
                 origem.poderes_id.forEach((poderId, index) => {
                     const poder = poderesMap.get(poderId);
                     if (poder) {
                         const linkPoder = document.createElement('a');
-                        linkPoder.href = `poderes.html#${poder.id}`;
+                        linkPoder.href = `/poderes.html#${poder.id}`;
                         linkPoder.textContent = poder.nome;
                         poderesContainer.appendChild(linkPoder);
 
+                        // Adiciona vírgula entre os poderes, menos no último
                         if (index < origem.poderes_id.length - 1) {
                             poderesContainer.append(', ');
                         }
@@ -52,5 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
             listaOrigensContainer.appendChild(origemCard);
         });
     })
-    .catch(error => console.error('Erro ao carregar Origens ou Poderes:', error));
+    .catch(error => {
+        console.error('Erro ao carregar Origens ou Poderes:', error);
+        listaOrigensContainer.textContent = 'Não foi possível carregar as origens. Verifique o console (F12).';
+    });
 });
