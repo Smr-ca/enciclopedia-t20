@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Carrega os dois arquivos JSON ao mesmo tempo
     Promise.all([
-        fetch('Origem.json').then(res => res.json()),
+        fetch('origem.json').then(res => res.json()),
         fetch('poderes.json').then(res => res.json())
     ])
     .then(([origens, poderes]) => {

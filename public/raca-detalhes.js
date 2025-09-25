@@ -9,8 +9,8 @@ async function fetchAndDisplayRaca() {
         }
 
         const [racasResponse, habilidadesRaciaisResponse] = await Promise.all([
-            fetch('/api/racas'),
-            fetch('/api/habilidades_raciais')
+            fetch('/api/raca'),
+            fetch('/api/habilidaderacial')
         ]);
 
         const racas = await racasResponse.json();
