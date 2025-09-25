@@ -1,0 +1,472 @@
+[
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "CAMINHO_DO_ARCANISTA",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "BRUXO",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "FEITICEIRO",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "MAGO",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "MAGIAS",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "PODER_DE_ARCANISTA",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "ARCANISTA",
+    "ID_Habilidade": "ALTA_ARCANA",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "FURIA",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "PODER_DE_BARBARO",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "INSTINTO_SELVAGEM",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "REDUCAO_DE_DANO",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "ID_Habilidade": "FURIA_TITANICA",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "INSPIRACAO",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "MAGIAS",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "PODER_DE_BARDO",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "ECLETICO",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "BARDO",
+    "ID_Habilidade": "ARTISTA_COMPLETO",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "AUDACIA",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "INSOLENCIA",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "EVASAO",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PODER_DE_BUCANEIRO",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "ESQUIVA_SAGAZ",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "PANACHE",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "EVASAO_APRIMORADA",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "ID_Habilidade": "SORTE_DE_NIMB",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "MARCA_DA_PRESA",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "RASTREADOR",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "PODER_DE_CACADOR",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "EXPLORADOR",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "CAMINHO_DO_EXPLORADOR",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "ID_Habilidade": "MESTRE_CACADOR",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "CODIGO_DE_HONRA",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "BALUARTE",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "DUELO",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "PODER_DE_CAVALEIRO",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "CAMINHO_DO_CAVALEIRO",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "RESOLUTO",
+    "Nivel_Adquirido": 11
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "ID_Habilidade": "BRAVURA_FINAL",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "DEVOTO_FIEL",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "MAGIAS",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "PODER_DE_CLERIGO",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "ID_Habilidade": "MAO_DA_DIVINDADE",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "DEVOTO_FIEL",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "EMPATIA_SELVAGEM",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "MAGIAS",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "PODER_DE_DRUIDA",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "CAMINHO_DOS_ERMOS",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "ID_Habilidade": "FORCA_DA_NATUREZA",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "ATAQUE_ESPECIAL",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "PODER_DE_GUERREIRO",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "DURAO",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "ATAQUE_EXTRA",
+    "Nivel_Adquirido": 6
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "ID_Habilidade": "CAMPEAO",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "ENGENHOSIDADE",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PROTOTIPO",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "FABRICAR_ITEM_SUPERIOR",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "PODER_DE_INVENTOR",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "COMERCIANTE",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "ENCONTRAR_FRAQUEZA",
+    "Nivel_Adquirido": 7
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "FABRICAR_ITEM_MAGICO",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "OLHO_DO_DRAGAO",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "ID_Habilidade": "OBRA_PRIMA",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "ATAQUE_FURTIVO",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "ESPECIALISTA",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "EVASAO",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "PODER_DE_LADINO",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "ESQUIVA_SOBRENATURAL",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "OLHOS_NAS_COSTAS",
+    "Nivel_Adquirido": 8
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "EVASAO_APRIMORADA",
+    "Nivel_Adquirido": 10
+  },
+  {
+    "ID_Classe": "LADINO",
+    "ID_Habilidade": "A_PESSOA_CERTA_PARA_O_TRABALHO",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "BRIGA",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "GOLPE_RELAMPAGO",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "PODER_DE_LUTADOR",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "CASCA_GROSSA",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "GOLPE_CRUEL",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "GOLPE_VIOLENTO",
+    "Nivel_Adquirido": 9
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "ID_Habilidade": "DONO_DA_RUA",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "AUTOCONFIANCA",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "ESPLIO",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "ORGULHO",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PODER_DE_NOBRE",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PALAVRAS_AFIADAS",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "RIQUEZA",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "GRITAR_ORDENS",
+    "Nivel_Adquirido": 4
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "PRESENCA_ARISTOCRATICA",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "ID_Habilidade": "REALEZA",
+    "Nivel_Adquirido": 20
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "ABENCOADO",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "CODIGO_DO_HEROI",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "GOLPE_DIVINO",
+    "Nivel_Adquirido": 1
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "CURA_PELAS_MAOS",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "PODER_DE_PALADINO",
+    "Nivel_Adquirido": 2
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "AURA_SAGRADA",
+    "Nivel_Adquirido": 3
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "BENCAO_DA_JUSTICA",
+    "Nivel_Adquirido": 5
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "ID_Habilidade": "VINGADOR_SAGRADO",
+    "Nivel_Adquirido": 20
+  }
+]
