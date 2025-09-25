@@ -1,0 +1,128 @@
+[
+  {
+    "ID_Classe": "ARCANISTA",
+    "Nome": "Arcanista",
+    "Descricao": "Um conjurador de magias arcanas, por meio de estudo, um foco ou dom natural.",
+    "PV_Inicial": 8,
+    "PV_por_Nivel": 2,
+    "PM_Inicial": 6,
+    "PM_por_Nivel": 6
+  },
+  {
+    "ID_Classe": "BARBARO",
+    "Nome": "Bárbaro",
+    "Descricao": "Um combatente primitivo, que usa fúria e instintos para destruir seus inimigos.",
+    "PV_Inicial": 24,
+    "PV_por_Nivel": 6,
+    "PM_Inicial": 3,
+    "PM_por_Nivel": 3
+  },
+  {
+    "ID_Classe": "BARDO",
+    "Nome": "Bardo",
+    "Descricao": "Um artista errante e faz-tudo versátil, sempre com a solução certa para cada ocasião.",
+    "PV_Inicial": 12,
+    "PV_por_Nivel": 3,
+    "PM_Inicial": 4,
+    "PM_por_Nivel": 4
+  },
+  {
+    "ID_Classe": "BUCANEIRO",
+    "Nome": "Bucaneiro",
+    "Descricao": "Um navegador inconsequente e galante, sempre em busca de ouro ou emoção.",
+    "PV_Inicial": 16,
+    "PV_por_Nivel": 4,
+    "PM_Inicial": 3,
+    "PM_por_Nivel": 3
+  },
+  {
+    "ID_Classe": "CACADOR",
+    "Nome": "Caçador",
+    "Descricao": "Um exterminador de monstros e mestre da sobrevivência em áreas selvagens.",
+    "PV_Inicial": 16,
+    "PV_por_Nivel": 4,
+    "PM_Inicial": 4,
+    "PM_por_Nivel": 4
+  },
+  {
+    "ID_Classe": "CAVALEIRO",
+    "Nome": "Cavaleiro",
+    "Descricao": "Um combatente honrado, especializado em suportar dano e proteger os outros.",
+    "PV_Inicial": 20,
+    "PV_por_Nivel": 5,
+    "PM_Inicial": 3,
+    "PM_por_Nivel": 3
+  },
+  {
+    "ID_Classe": "CLERIGO",
+    "Nome": "Clérigo",
+    "Descricao": "Servo de um dos deuses de Arton, usa poderes divinos para defender seus ideais.",
+    "PV_Inicial": 16,
+    "PV_por_Nivel": 4,
+    "PM_Inicial": 5,
+    "PM_por_Nivel": 5
+  },
+  {
+    "ID_Classe": "DRUIDA",
+    "Nome": "Druida",
+    "Descricao": "Guardião do mundo natural e devoto das forças selvagens, naturais ou monstruosas.",
+    "PV_Inicial": 16,
+    "PV_por_Nivel": 4,
+    "PM_Inicial": 4,
+    "PM_por_Nivel": 4
+  },
+  {
+    "ID_Classe": "GUERREIRO",
+    "Nome": "Guerreiro",
+    "Descricao": "O especialista supremo em técnicas de combate com armas.",
+    "PV_Inicial": 20,
+    "PV_por_Nivel": 5,
+    "PM_Inicial": 3,
+    "PM_por_Nivel": 3
+  },
+  {
+    "ID_Classe": "INVENTOR",
+    "Nome": "Inventor",
+    "Descricao": "Um ferreiro, alquimista ou engenhoqueiro, especializado em fabricar e usar itens.",
+    "PV_Inicial": 12,
+    "PV_por_Nivel": 3,
+    "PM_Inicial": 4,
+    "PM_por_Nivel": 4
+  },
+  {
+    "ID_Classe": "LADINO",
+    "Nome": "Ladino",
+    "Descricao": "Aventureiro cheio de truques, confiando mais em agilidade e esperteza que em força bruta.",
+    "PV_Inicial": 12,
+    "PV_por_Nivel": 3,
+    "PM_Inicial": 4,
+    "PM_por_Nivel": 4
+  },
+  {
+    "ID_Classe": "LUTADOR",
+    "Nome": "Lutador",
+    "Descricao": "Um especialista em combate desarmado rústico e durão.",
+    "PV_Inicial": 20,
+    "PV_por_Nivel": 5,
+    "PM_Inicial": 3,
+    "PM_por_Nivel": 3
+  },
+  {
+    "ID_Classe": "NOBRE",
+    "Nome": "Nobre",
+    "Descricao": "Um membro da alta sociedade cujas principais armas são as palavras e o orgulho.",
+    "PV_Inicial": 16,
+    "PV_por_Nivel": 4,
+    "PM_Inicial": 4,
+    "PM_por_Nivel": 4
+  },
+  {
+    "ID_Classe": "PALADINO",
+    "Nome": "Paladino",
+    "Descricao": "Um campeão do bem e da ordem, o perfeito soldado dos deuses.",
+    "PV_Inicial": 20,
+    "PV_por_Nivel": 5,
+    "PM_Inicial": 3,
+    "PM_por_Nivel": 3
+  }
+]
