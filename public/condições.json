@@ -1,0 +1,706 @@
+[
+  {
+    "id": "ABALADO",
+    "nome": "Abalado",
+    "resumo": "Sofre –2 em testes de perícia.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem sofre –2 em testes de perícia. Se ficar abalado novamente, em vez disso fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "APAVORADO",
+        "texto": "apavorado"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ". Medo."
+      }
+    ]
+  },
+  {
+    "id": "AGARRADO",
+    "nome": "Agarrado",
+    "resumo": "Fica desprevenido e imóvel, sofre –2 em ataques e só pode atacar com armas leves.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "DESPREVENIDO",
+        "texto": "desprevenido"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " e "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "IMOVEL",
+        "texto": "imóvel"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ", sofre –2 em testes de ataque e só pode atacar com armas leves. Ataques à distância contra um alvo envolvido em uma manobra agarrar têm 50% de chance de acertar o alvo errado. Movimento."
+      }
+    ]
+  },
+  {
+    "id": "ALQUEBRADO",
+    "nome": "Alquebrado",
+    "resumo": "O custo em PM das habilidades do personagem aumenta em +1.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O custo em pontos de mana das habilidades do personagem aumenta em +1. Mental."
+      }
+    ]
+  },
+  {
+    "id": "APAVORADO",
+    "nome": "Apavorado",
+    "resumo": "Sofre –5 em testes de perícia e não pode se aproximar da fonte do medo.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem sofre –5 em testes de perícia e não pode se aproximar voluntariamente da fonte do medo. Medo."
+      }
+    ]
+  },
+  {
+    "id": "ATORDOADO",
+    "nome": "Atordoado",
+    "resumo": "Fica desprevenido e não pode fazer ações.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "DESPREVENIDO",
+        "texto": "desprevenido"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " e não pode fazer ações. Mental."
+      }
+    ]
+  },
+  {
+    "id": "CAIDO",
+    "nome": "Caído",
+    "resumo": "–5 Defesa (corpo a corpo), +5 Defesa (à distância), –5 em ataques corpo a corpo.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem sofre –5 na Defesa contra ataques corpo a corpo e recebe +5 na Defesa contra ataques à distância (cumulativos com outras condições). Além disso, sofre –5 em ataques corpo a corpo e seu deslocamento é reduzido a 1,5m."
+      }
+    ]
+  },
+  {
+    "id": "CEGO",
+    "nome": "Cego",
+    "resumo": "Fica desprevenido e lento, não pode fazer testes de Percepção para observar e sofre penalidades.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "DESPREVENIDO",
+        "texto": "desprevenido"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " e "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "LENTO",
+        "texto": "lento"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ", não pode fazer testes de "
+      },
+      {
+        "tipo": "link_pericia",
+        "id": "PERCEPCAO",
+        "texto": "Percepção"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " para observar e sofre –5 em testes de perícias baseadas em Força ou Destreza. Todos os alvos de seus ataques recebem camuflagem total. Você é considerado cego enquanto estiver em uma área de escuridão total, a menos que algo lhe permita perceber no escuro. Sentidos."
+      }
+    ]
+  },
+  {
+    "id": "CONFUSO",
+    "nome": "Confuso",
+    "resumo": "Comporta-se de modo aleatório (role 1d6 no início dos turnos).",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem comporta-se de modo aleatório. Role 1d6 no início de seus turnos:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "1) Movimenta-se em uma direção escolhida por uma rolagem de 1d8;",
+          "2-3) Não pode fazer ações, e fica balbuciando incoerentemente;",
+          "4-5) Usa a arma que estiver empunhando para atacar a criatura mais próxima, ou a si mesmo se estiver sozinho (nesse caso, apenas role o dano);",
+          "6) A condição termina e pode agir normalmente."
+        ]
+      },
+      {
+        "tipo": "texto",
+        "conteudo": "Mental."
+      }
+    ]
+  },
+  {
+    "id": "DEBILITADO",
+    "nome": "Debilitado",
+    "resumo": "Sofre –5 em testes de Força, Destreza e Constituição.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem sofre –5 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos. Se o personagem ficar debilitado novamente, em vez disso fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "INCONSCIENTE",
+        "texto": "inconsciente"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": "."
+      }
+    ]
+  },
+  {
+    "id": "DESPREVENIDO",
+    "nome": "Desprevenido",
+    "resumo": "Sofre –5 na Defesa e em Reflexos.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem sofre –5 na Defesa e em "
+      },
+      {
+        "tipo": "link_pericia",
+        "id": "REFLEXOS",
+        "texto": "Reflexos"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ". Você fica desprevenido contra inimigos que não possa perceber."
+      }
+    ]
+  },
+  {
+    "id": "DOENTE",
+    "nome": "Doente",
+    "resumo": "Sob efeito de uma doença.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "Sob efeito de uma doença. Metabolismo."
+      }
+    ]
+  },
+  {
+    "id": "EM_CHAMAS",
+    "nome": "Em Chamas",
+    "resumo": "Sofre 1d6 de dano de fogo no início dos turnos.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem está pegando fogo. No início de seus turnos, sofre 1d6 pontos de dano de fogo. O personagem pode gastar uma ação padrão para apagar o fogo com as mãos. Imersão em água também apaga as chamas."
+      }
+    ]
+  },
+  {
+    "id": "ENFEITICADO",
+    "nome": "Enfeitiçado",
+    "resumo": "Torna-se prestativo em relação à fonte da condição.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem se torna prestativo em relação à fonte da condição. Ele não fica sob controle da fonte, mas percebe suas palavras e ações da maneira mais favorável possível. A fonte da condição recebe +10 em testes de "
+      },
+      {
+        "tipo": "link_pericia",
+        "id": "DIPLOMACIA",
+        "texto": "Diplomacia"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " com o personagem. Mental."
+      }
+    ]
+  },
+  {
+    "id": "ENJOADO",
+    "nome": "Enjoado",
+    "resumo": "Só pode realizar uma ação padrão ou de movimento por rodada.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem só pode realizar uma ação padrão ou de movimento (não ambas) por rodada. Ele pode gastar uma ação padrão para fazer uma investida, mas pode avançar no máximo seu deslocamento (e não o dobro). Metabolismo."
+      }
+    ]
+  },
+  {
+    "id": "ENREDADO",
+    "nome": "Enredado",
+    "resumo": "Fica lento, vulnerável e sofre –2 em testes de ataque.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "LENTO",
+        "texto": "lento"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ", "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "VULNERAVEL",
+        "texto": "vulnerável"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " e sofre –2 em testes de ataque. Movimento."
+      }
+    ]
+  },
+  {
+    "id": "ENVENENADO",
+    "nome": "Envenenado",
+    "resumo": "O efeito varia conforme o veneno, podendo ser perda de PV ou outra condição.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O efeito desta condição varia de acordo com o veneno. Pode ser perda de vida recorrente ou outra condição (como "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "FRACO",
+        "texto": "fraco"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " ou "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "ENJOADO",
+        "texto": "enjoado"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": "). Perda de vida recorrente por venenos é cumulativa. Veneno."
+      }
+    ]
+  },
+  {
+    "id": "ESMORECIDO",
+    "nome": "Esmorecido",
+    "resumo": "Sofre –5 em testes de Inteligência, Sabedoria e Carisma.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem sofre –5 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos. Mental."
+      }
+    ]
+  },
+  {
+    "id": "EXAUSTO",
+    "nome": "Exausto",
+    "resumo": "Fica debilitado, lento e vulnerável.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "DEBILITADO",
+        "texto": "debilitado"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ", "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "LENTO",
+        "texto": "lento"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " e "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "VULNERAVEL",
+        "texto": "vulnerável"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ". Se ficar exausto novamente, em vez disso fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "INCONSCIENTE",
+        "texto": "inconsciente"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ". Cansaço."
+      }
+    ]
+  },
+  {
+    "id": "FASCINADO",
+    "nome": "Fascinado",
+    "resumo": "Sofre –5 em Percepção e não pode fazer ações, exceto observar.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "Com a atenção presa em alguma coisa. O personagem sofre –5 em "
+      },
+      {
+        "tipo": "link_pericia",
+        "id": "PERCEPCAO",
+        "texto": "Percepção"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " e não pode fazer ações, exceto observar aquilo que o fascinou. Esta condição é anulada por ações hostis contra o personagem ou se o que o fascinou não estiver mais visível. Balançar uma criatura fascinada para tirá-la desse estado gasta uma ação padrão. Mental."
+      }
+    ]
+  },
+  {
+    "id": "FATIGADO",
+    "nome": "Fatigado",
+    "resumo": "Fica fraco e vulnerável.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "FRACO",
+        "texto": "fraco"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " e "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "VULNERAVEL",
+        "texto": "vulnerável"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ". Se ficar fatigado novamente, em vez disso fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "EXAUSTO",
+        "texto": "exausto"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ". Cansaço."
+      }
+    ]
+  },
+  {
+    "id": "FRACO",
+    "nome": "Fraco",
+    "resumo": "Sofre –2 em testes de Força, Destreza e Constituição.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem sofre –2 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos. Se ficar fraco novamente, em vez disso fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "DEBILITADO",
+        "texto": "debilitado"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": "."
+      }
+    ]
+  },
+  {
+    "id": "FRUSTRADO",
+    "nome": "Frustrado",
+    "resumo": "Sofre –2 em testes de Inteligência, Sabedoria e Carisma.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem sofre –2 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos. Se ficar frustrado novamente, em vez disso fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "ESMORECIDO",
+        "texto": "esmorecido"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ". Mental."
+      }
+    ]
+  },
+  {
+    "id": "IMOVEL",
+    "nome": "Imóvel",
+    "resumo": "Todas as formas de deslocamento são reduzidas a 0m.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "Todas as formas de deslocamento do personagem são reduzidas a 0m. Movimento."
+      }
+    ]
+  },
+  {
+    "id": "INCONSCIENTE",
+    "nome": "Inconsciente",
+    "resumo": "Fica indefeso e não pode fazer ações.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "INDEFESO",
+        "texto": "indefeso"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " e não pode fazer ações, incluindo reações (mas ainda pode fazer testes que sejam naturalmente feitos quando se está inconsciente, como testes de Constituição para estabilizar sangramento). Balançar uma criatura para acordá-la gasta uma ação padrão."
+      }
+    ]
+  },
+  {
+    "id": "INDEFESO",
+    "nome": "Indefeso",
+    "resumo": "Fica desprevenido, sofre –10 na Defesa, falha em Reflexos e pode sofrer golpes de misericórdia.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "DESPREVENIDO",
+        "texto": "desprevenido"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ", mas sofre –10 na Defesa, falha automaticamente em testes de "
+      },
+      {
+        "tipo": "link_pericia",
+        "id": "REFLEXOS",
+        "texto": "Reflexos"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " e pode sofrer golpes de misericórdia."
+      }
+    ]
+  },
+  {
+    "id": "LENTO",
+    "nome": "Lento",
+    "resumo": "Deslocamento reduzido à metade, não pode correr ou fazer investidas.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "Todas as formas de deslocamento do personagem são reduzidas à metade (arredonde para baixo para o primeiro incremento de 1,5m) e ele não pode correr ou fazer investidas. Movimento."
+      }
+    ]
+  },
+  {
+    "id": "OFUSCADO",
+    "nome": "Ofuscado",
+    "resumo": "Sofre –2 em testes de ataque e de Percepção.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem sofre –2 em testes de ataque e de "
+      },
+      {
+        "tipo": "link_pericia",
+        "id": "PERCEPCAO",
+        "texto": "Percepção"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ". Sentidos."
+      }
+    ]
+  },
+  {
+    "id": "PARALISADO",
+    "nome": "Paralisado",
+    "resumo": "Fica imóvel e indefeso, só pode fazer ações puramente mentais.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "Fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "IMOVEL",
+        "texto": "imóvel"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " e "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "INDEFESO",
+        "texto": "indefeso"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " e só pode realizar ações puramente mentais. Movimento."
+      }
+    ]
+  },
+  {
+    "id": "PASMO",
+    "nome": "Pasmo",
+    "resumo": "Não pode fazer ações.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "Não pode fazer ações. Mental."
+      }
+    ]
+  },
+  {
+    "id": "PETRIFICADO",
+    "nome": "Petrificado",
+    "resumo": "Fica inconsciente e recebe RD 8.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "INCONSCIENTE",
+        "texto": "inconsciente"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " e recebe redução de dano 8. Metamorfose."
+      }
+    ]
+  },
+  {
+    "id": "SANGRANDO",
+    "nome": "Sangrando",
+    "resumo": "No início do turno, deve fazer um teste de Constituição (CD 15) ou perde 1d6 PV.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "No início de seu turno, o personagem deve fazer um teste de Constituição (CD 15). Se falhar, perde 1d6 pontos de vida e continua sangrando. Se passar, remove essa condição. Metabolismo."
+      }
+    ]
+  },
+  {
+    "id": "SOBRECARREGADO",
+    "nome": "Sobrecarregado",
+    "resumo": "Sofre penalidade de armadura –5 e deslocamento –3m.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem sofre penalidade de armadura –5 e seu deslocamento é reduzido em –3m. Movimento."
+      }
+    ]
+  },
+  {
+    "id": "SURDO",
+    "nome": "Surdo",
+    "resumo": "–5 em Iniciativa, não pode fazer testes de Percepção para ouvir.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem não pode fazer testes de "
+      },
+      {
+        "tipo": "link_pericia",
+        "id": "PERCEPCAO",
+        "texto": "Percepção"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " para ouvir e sofre –5 em testes de "
+      },
+      {
+        "tipo": "link_pericia",
+        "id": "INICIATIVA",
+        "texto": "Iniciativa"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": ". Além disso, é considerado em condição ruim para lançar magias. Sentidos."
+      }
+    ]
+  },
+  {
+    "id": "SURPREENDIDO",
+    "nome": "Surpreendido",
+    "resumo": "Fica desprevenido e não pode fazer ações.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem fica "
+      },
+      {
+        "tipo": "link_condicao",
+        "id": "DESPREVENIDO",
+        "texto": "desprevenido"
+      },
+      {
+        "tipo": "texto",
+        "conteudo": " e não pode fazer ações."
+      }
+    ]
+  },
+  {
+    "id": "VULNERAVEL",
+    "nome": "Vulnerável",
+    "resumo": "Sofre –2 na Defesa.",
+    "descricao_completa_partes": [
+      {
+        "tipo": "texto",
+        "conteudo": "O personagem sofre –2 na Defesa."
+      }
+    ]
+  }
+]

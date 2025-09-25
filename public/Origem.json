@@ -2,246 +2,370 @@
   {
     "ID_Origem": "ACOLITO",
     "Nome": "Acólito",
-    "Descricao": "Serviu em uma ordem religiosa, ganhando conhecimento sobre orações e ensinamentos sagrados. Sua vida foi dedicada à fé, independentemente de ter se tornado um devoto.",
+    "Descricao": "Neste mundo agraciado com tantos deuses e igrejas, muitos ingressam cedo em alguma ordem religiosa o que, dependendo de quem é seu deus padroeiro, pode ser motivo de admiração ou repulsa. Talvez você tenha ouvido o chamado da fé, seguiu a tradição espiritual de sua família, ou apenas foi abandonado quando pequeno às portas de um templo ou mosteiro. Tenha ou não se tornado um devoto, suas lembranças são carregadas de orações, evangelhos e outros ensinamentos.",
     "Pericia_Adicional": "Cura, Religião, Vontade",
-    "Poder_Adicional": "Medicina, Membro da Igreja, Vontade de Ferro"
+    "poderes_id": [
+      "MEDICINA",
+      "MEMBRO_DA_IGREJA",
+      "VONTADE_DE_FERRO"
+    ]
   },
   {
     "ID_Origem": "AMIGO_DOS_ANIMAIS",
     "Nome": "Amigo dos Animais",
-    "Descricao": "Possui uma conexão especial com animais, tendo trabalhado como cavalariço, criador de gado ou simplesmente nascido com um dom para compreendê-los e lidar com eles.",
+    "Descricao": "Você pode ter sido cavalariço no estábulo de um castelo, criador de gado em uma fazenda, ginete de Namalkah ou mesmo tratador em um zoológico ou circo em Arton, existem espetáculos circenses com animais em jaulas, que talvez você tenha desejado libertar. Ou então nada disso: desde criança você tem facilidade em lidar com animais, sempre conversou com eles, sentiu ser capaz de compreendê-los. Em certos lugares ou tribos, alguma montaria especial seria destinada a você.",
     "Pericia_Adicional": "Adestramento, Cavalgar",
-    "Poder_Adicional": "Amigo Especial"
+    "poderes_id": [
+      "AMIGO_ESPECIAL"
+    ]
   },
   {
     "ID_Origem": "AMNESICO",
     "Nome": "Amnésico",
-    "Descricao": "Perdeu a maior parte de sua memória, sabendo apenas o próprio nome (ou nem isso). Suas habilidades são intuitivas, e suas aventuras podem revelar pistas sobre seu misterioso passado.",
-    "Pericia_Adicional": null,
-    "Poder_Adicional": "Lembranças Graduais"
+    "Descricao": "Você perdeu a maior parte da memória. Sabe apenas o próprio nome ou nem isso. Talvez tenha alguns itens pessoais, mas nenhuma ideia de como os conseguiu podem ser relíquias de família, presentes de um ente querido ou apenas coisas que pegou de viajantes mortos lá atrás. Você não sabe como recebeu seu treinamento; apenas tem uma intuição sobre aquilo que consegue fazer. Seus atuais companheiros são a única família que conhece. Talvez viajando com eles você descubra algo sobre seu passado.",
+    "Pericia_Adicional": "",
+    "poderes_id": [
+      "LEMBRANCAS_GRADUAIS"
+    ]
   },
   {
     "ID_Origem": "ARISTOCRATA",
     "Nome": "Aristocrata",
-    "Descricao": "Nascido na nobreza, recebeu uma educação sofisticada em áreas como política, cavalaria ou artes arcanas. Carrega o peso das expectativas de sua linhagem e possui contatos influentes.",
+    "Descricao": "Você nasceu na nobreza. Recebeu educação sofisticada em assuntos acadêmicos, política mercantil, torneios de cavalaria ou mesmo conjuração arcana, dependendo das tradições em sua linhagem e desejos de seus pais. Você ainda procura cumprir seus compromissos como nobre? Luta para conciliar as expectativas da família com a vida de aventuras? Ou cortou totalmente seus laços com o passado, mantendo apenas alguns pertences valiosos e contatos úteis?",
     "Pericia_Adicional": "Diplomacia, Enganação, Nobreza",
-    "Poder_Adicional": "Comandar, Sangue Azul"
+    "poderes_id": [
+      "COMANDAR",
+      "SANGUE_AZUL"
+    ]
   },
   {
     "ID_Origem": "ARTESAO",
     "Nome": "Artesão",
-    "Descricao": "Treinado por um mestre ou guilda, dedicou-se a fabricar itens, desde vestes para nobres até armas letais. Suas habilidades manuais se provaram valiosas na vida de aventuras.",
+    "Descricao": "Do alfaiate habilidoso em costurar as vestes da nobreza ao armeiro que forja armas letais, você foi treinado por um parente, mestre ou guilda para fabricar itens importantes no mundo civilizado. Suas habilidades podem ter sido aprendidas para o trabalho, mas se mostraram úteis durante as aventuras.",
     "Pericia_Adicional": "Ofício, Vontade",
-    "Poder_Adicional": "Frutos do Trabalho, Sortudo"
+    "poderes_id": [
+      "FRUTOS_DO_TRABALHO",
+      "SORTUDO"
+    ]
   },
   {
     "ID_Origem": "ARTISTA",
     "Nome": "Artista",
-    "Descricao": "Possui um talento nato ou treinou exaustivamente para dominar uma forma de arte, como música, dança ou atuação. Sua arte serve como entretenimento e inspiração para outros.",
+    "Descricao": "Você possui talento, nasceu com um \"dom\" pelo menos é o que outras pessoas gostam de pensar. Será verdade? Ou será que você apenas sentiu atração por certa forma de arte e treinou muito, muito mesmo? Enquanto o artesão fabrica itens \"mundanos\", o artista produz entretenimento, alimento para o coração e a alma. Talvez você apenas saiba entoar belas canções, aprendidas na infância com pais amorosos, ou ouvindo fadas na floresta. Ou talvez seja um ator ou dançarino formado em alguma escola de artes prestigiada.",
     "Pericia_Adicional": "Atuação, Enganação",
-    "Poder_Adicional": "Atraente, Dom Artístico, Sortudo, Torcida"
+    "poderes_id": [
+      "ATRAENTE",
+      "DOM_ARTISTICO",
+      "SORTUDO",
+      "TORCIDA"
+    ]
   },
   {
     "ID_Origem": "ASSISTENTE_DE_LABORATORIO",
     "Nome": "Assistente de Laboratório",
-    "Descricao": "Trabalhou para um alquimista, inventor ou mago, lidando com ingredientes exóticos e experimentos perigosos. A exposição a substâncias instáveis pode ter afetado sua saúde ou despertado habilidades.",
+    "Descricao": "Você atuou como ajudante para um alquimista, inventor ou mago. Costumava tomar notas, limpar o laboratório, arrumar as ferramentas, vasculhar mercados em busca de ingredientes exóticos, recapturar a aberração antinatural que fugiu da jaula... enfim, não era o trabalho mais fácil, limpo ou seguro do mundo. Exposição prolongada a substâncias e experimentos perigosos talvez tenham prejudicado sua saúde (ou despertado suas habilidades de classe...).",
     "Pericia_Adicional": "Ofício (alquimista), Misticismo",
-    "Poder_Adicional": "Esse Cheiro..., Venefício, um poder da Tormenta a sua escolha"
+    "poderes_id": [
+      "ESSE_CHEIRO...",
+      "VENEFICIO",
+      "PODER_DA_TORMENTA_A_ESCOLHA"
+    ]
   },
   {
     "ID_Origem": "BATEDOR",
     "Nome": "Batedor",
-    "Descricao": "Especialista em encontrar caminhos e guiar outros com segurança, seja em caravanas, exércitos ou como caçador de recompensas. Seu treinamento o tornou perito em sobrevivência e rastreamento.",
+    "Descricao": "Seja conduzindo caravanas através dos reinos, rastreando inimigos nos campos de batalha ou guiando exploradores nas vastidões selvagens, você aprendeu a achar caminhos e dirigir outros com segurança. Batedores podem surgir nas tribos mais primitivas, acompanhando grupos de caça, como profissionais sofisticados nas grandes cidades e forças militares ou ainda na perigosa atividade de caça-recompensas. Pouco importando a carreira que adotou mais tarde, como aventureiro, seu antigo treino acaba se revelando útil em numerosas ocasiões.",
     "Pericia_Adicional": "Furtividade, Percepção, Sobrevivência",
-    "Poder_Adicional": "À Prova de Tudo, Estilo de Disparo, Sentidos Aguçados"
+    "poderes_id": [
+      "A_PROVA_DE_TUDO",
+      "ESTILO_DE_DISPARO",
+      "SENTIDOS_AGUCADOS"
+    ]
   },
   {
     "ID_Origem": "CAPANGA",
     "Nome": "Capanga",
-    "Descricao": "Atuou como o músculo de uma guilda de ladrões ou gangue, usando sua força bruta para intimidar e resolver problemas. Embora tenha deixado essa vida, ainda sabe como \"convencer\" alguém.",
+    "Descricao": "Agilidade e esperteza são importantes no mundo do crime, mas não são tudo; às vezes é preciso esmurrar alguém. Por ser grande, forte ou mal-encarado, você acabou trabalhando como músculos para algum bandido, ou integrando um bando, quadrilha ou guilda de ladrões. Talvez você não fosse muito bom em bater carteiras nas ruas de Ahlen, mas sabia erguer alguém pelo tornozelo e sacudir até as moedas caírem. Hoje, como aventureiro, você provavelmente deixou essa época para trás pelo menos até que alguém precise ser \"convencido\" a colaborar.",
     "Pericia_Adicional": "Luta, Intimidação",
-    "Poder_Adicional": "Confissão, um poder de combate a sua escolha"
+    "poderes_id": [
+      "CONFISSAO",
+      "PODER_DE_COMBATE_A_ESCOLHA"
+    ]
   },
   {
     "ID_Origem": "CHARLATAO",
     "Nome": "Charlatão",
-    "Descricao": "Sempre teve talento para resolver problemas com lábia, honesta ou não. Sabe identificar os desejos e medos das pessoas, usando palavras para superar obstáculos com a mesma eficácia de armas.",
+    "Descricao": "Você sempre teve talento para resolver problemas com conversa, sincera ou nem tanto. Talvez tenha aprendido andando com más companhias. Por ser pequeno e fraco em meio a guerreiros truculentos, talvez fosse pura questão de sobrevivência. Ou foi tocado por Hyninn, Sszzaas ou outra entidade traiçoeira. Seja como for, após um pouco de diálogo, você percebe o que as pessoas mais querem ou temem, usando palavras para vencer obstáculos tão facilmente quanto espadas e magias. Ou melhor.",
     "Pericia_Adicional": "Enganação, Jogatina",
-    "Poder_Adicional": "Alpinista Social, Aparência Inofensiva, Sortudo"
+    "poderes_id": [
+      "ALPINISTA_SOCIAL",
+      "APARENCIA_INOFENSIVA",
+      "SORTUDO"
+    ]
   },
   {
     "ID_Origem": "CIRCENSE",
     "Nome": "Circense",
-    "Descricao": "Aprendeu acrobacias, malabarismo ou outra arte circense, seja por tradição familiar ou para sobreviver nas ruas. Suas aptidões únicas se mostram surpreendentemente úteis em aventuras.",
+    "Descricao": "Você treinou acrobacia, malabarismo, mágica ou outra forma de arte circense. Talvez tenha aprendido sozinho, durante as brincadeiras de infância. Talvez tenha sido ensinado por um ente querido, tornando essa arte uma forte ligação com seu passado. Ou ainda, é possível que tenha sido forçado a aprender seus truques para sobreviver nas ruas. De qualquer forma, são aptidões que podem ser úteis em suas aventuras.",
     "Pericia_Adicional": "Acrobacia, Atuação, Reflexos",
-    "Poder_Adicional": "Acrobático, Torcida, Truque de Mágica"
+    "poderes_id": [
+      "ACROBATICO",
+      "TORCIDA",
+      "TRUQUE_DE_MAGICA"
+    ]
   },
   {
     "ID_Origem": "CRIMINOSO",
     "Nome": "Criminoso",
-    "Descricao": "Por necessidade ou ambição, viveu como bandido, seja furtando, trapaceando ou até mesmo aceitando contratos de assassinato. A vida de aventureiro é uma chance de redenção ou apenas um novo alvo.",
+    "Descricao": "Fazer o bem é bonito, mas não enche barriga pelo menos, assim você foi ensinado. Por necessidade, ambição ou apenas sem conhecer outra vida, você foi um bandido durante boa parte da juventude. Furtava bolsas, trapaceava em jogos de taverna, emboscava viajantes nas estradas ou até aceitava contratos para matar. Agia sozinho, com seu próprio bando, pertencia a uma guilda de ladrões. Tornar-se aventureiro talvez seja uma forma de expiar por seus crimes, ou apenas o passo seguinte; em vez de mercadores, roubar tesouros de dragões!",
     "Pericia_Adicional": "Enganação, Furtividade, Ladinagem",
-    "Poder_Adicional": "Punguista, Venefício"
+    "poderes_id": [
+      "PUNGUISTA",
+      "VENEFICIO"
+    ]
   },
   {
     "ID_Origem": "CURANDEIRO",
     "Nome": "Curandeiro",
-    "Descricao": "Seja como aprendiz de um curandeiro de vila ou com estudo formal, aprendeu a tratar ferimentos e doenças com remédios e tratamentos naturais, sem o uso de magia divina.",
+    "Descricao": "Que bom seria se a cura milagrosa dos clérigos estivesse ao alcance de todos! Talvez você tenha sido ajudante do curandeiro da vila, testemunhando quando ele tratava doenças e lesões sem conjurar qualquer magia. Ou teve um estudo formal e sofisticado de medicina no Colégio Real de Médicos em Salistick. De qualquer modo, você é treinado em curar com remédios e tratamentos naturais algo sempre útil, mesmo quando há um clérigo por perto.",
     "Pericia_Adicional": "Cura, Vontade",
-    "Poder_Adicional": "Medicina, Médico de Campo, Venefício"
+    "poderes_id": [
+      "MEDICINA",
+      "MEDICO_DE_CAMPO",
+      "VENEFICIO"
+    ]
   },
   {
     "ID_Origem": "EREMITA",
     "Nome": "Eremita",
-    "Descricao": "Passou parte de sua vida isolado da sociedade, seja por exílio, um chamado divino ou para praticar artes proibidas. A vida reclusa fortaleceu seu corpo e espírito.",
+    "Descricao": "Você passou parte da vida isolado, afastado da sociedade. Foi banido ainda criança, por nascer lefou ou com alguma deformidade da Tormenta. Ouviu um chamado dos deuses, buscando o isolamento para meditar sobre seu significado. Viveu enclausurado em um mosteiro, mantendo contato apenas com monges silenciosos. Ou foi praticante de artes arcanas proibidas, mantendo-se longe de olhares curiosos. A vida simples o tornou forte de corpo e espírito. Mas, em algum momento, você decidiu que bastava ou teve sua tranquilidade interrompida.",
     "Pericia_Adicional": "Misticismo, Religião, Sobrevivência",
-    "Poder_Adicional": "Busca Interior, Lobo Solitário"
+    "poderes_id": [
+      "BUSCA_INTERIOR",
+      "LOBO_SOLITARIO"
+    ]
   },
   {
     "ID_Origem": "ESCRAVO",
     "Nome": "Escravo",
-    "Descricao": "Nascido em cativeiro ou capturado, conheceu a brutalidade da escravidão. Seja como foragido ou liberto, sua experiência o tornou resistente e furtivo para sobreviver.",
+    "Descricao": "De minotauros odiosos no Império de Tauron aos cruéis mestres subterrâneos de Trollkyrka, várias culturas praticam a escravidão. Você já nasceu escravo, fez parte de um povo derrotado na guerra ou foi capturado em alguma rua escura para depois despertar na jaula, em algum mercado clandestino? Encontrou uma chance de escapar, tornando-se agora um escravo foragido? Recebeu a liberdade como recompensa por realizar um grande favor a seu algoz? Foi resgatado por aventureiros que agora se tornaram sua nova família?",
     "Pericia_Adicional": "Atletismo, Fortitude, Furtividade",
-    "Poder_Adicional": "Desejo de Liberdade, Vitalidade"
+    "poderes_id": [
+      "DESEJO_DE_LIBERDADE",
+      "VITALIDADE"
+    ]
   },
   {
     "ID_Origem": "ESTUDIOSO",
     "Nome": "Estudioso",
-    "Descricao": "Dedicou longos anos de sua vida a livros e pergaminhos, adquirindo vasto conhecimento em áreas como história, tática ou artes arcanas. Agora, busca a experiência prática.",
+    "Descricao": "Não importa se você já nasceu apaixonado por certo assunto, testemunhou um evento incrível que atiçou sua curiosidade ou se viu forçado a estudar por imposição familiar. Longos anos de sua vida foram gastos em meio a livros e pergaminhos. Da engenharia dos anões à geopolítica do Reinado, das táticas militares puristas aos sistemas de conjuração da Academia Arcana, da anatomia dos dragões aos enigmas cósmicos da Tormenta... em Arton não faltam campos a conquistar, segredos a desvendar. Agora, como aventureiro, você tem a chance de vivenciar aquilo que aprendeu e também auxiliar o grupo com o fruto de seus estudos.",
     "Pericia_Adicional": "Conhecimento, Guerra, Misticismo",
-    "Poder_Adicional": "Aparência Inofensiva, Palpite Fundamentado"
+    "poderes_id": [
+      "APARENCIA_INOFENSIVA",
+      "PALPITE_FUNDAMENTADO"
+    ]
   },
   {
     "ID_Origem": "FAZENDEIRO",
     "Nome": "Fazendeiro",
-    "Descricao": "Trabalhou duro em campos, cultivando a terra ou criando animais. Viveu em contato com a natureza e aprendeu a se virar com o que tinha antes de partir para a aventura.",
+    "Descricao": "Boa parte da população de Arton jamais conheceu outro modo de viver. Em algum lugar na perigosa transição entre os ermos e as cidades, você trabalhou duro em campos e fazendas. Cultivando a terra ou criando animais, viveu longos anos em contato com a natureza, orando e trabalhando por boas colheitas ou gado saudável, só ocasionalmente visitando povoados para negociar sua produção. Por que essa vida tranquila acabou? Sua família foi assassinada por goblins? Sua fazenda foi devastada por um dragão? Ou você apenas foi atraído pelo chamado da aventura?",
     "Pericia_Adicional": "Adestramento, Cavalgar, Ofício (fazendeiro), Sobrevivência",
-    "Poder_Adicional": "Água no Feijão, Ginete"
+    "poderes_id": [
+      "AGUA_NO_FEIJAO",
+      "GINETE"
+    ]
   },
   {
     "ID_Origem": "FORASTEIRO",
     "Nome": "Forasteiro",
-    "Descricao": "Vindo de terras distantes e de uma cultura desconhecida no Reinado, seus hábitos são considerados exóticos. Busca se adaptar ao novo lar ou encontrar o caminho de volta para casa.",
+    "Descricao": "Você veio de longe. Sua cultura nativa é quase ou totalmente desconhecida no Reinado, tornando-o uma figura exótica, de hábitos estranhos. Você pertence a uma tribo perdida nas Montanhas Sanguinárias? Nasceu em uma bela cidade de cúpulas douradas no Deserto da Perdição? Navegou em navios audazes desde os Reinos de Moreania? Talvez você até tenha chegado de outro mundo, através de algum portal mágico. Será que conseguiu ajustar-se a este Reinado, agora chamando-o de lar? Ou procura até hoje o caminho de volta para casa?",
     "Pericia_Adicional": "Cavalgar, Pilotagem, Sobrevivência",
-    "Poder_Adicional": "Cultura Exótica, Lobo Solitário"
+    "poderes_id": [
+      "CULTURA_EXOTICA",
+      "LOBO_SOLITARIO"
+    ]
   },
   {
     "ID_Origem": "GLADIADOR",
     "Nome": "Gladiador",
-    "Descricao": "Participou de combates em arenas, seja por fama, fortuna ou tradição familiar. Abandonou os aplausos para usar sua experiência em torneios para viver aventuras reais.",
+    "Descricao": "Combates de arena são um entretenimento popular em Arton a ponto de atrair muitos jovens praticantes. Podem ser combates até a morte ou apenas encenações elaboradas ou ainda corridas de cavalo, arquearia e outros esportes menos sangrentos. Você se envolveu nesse mundo glamoroso por ser tradição em sua família, por admirar algum gladiador renomado ou apenas por sede de fama e fortuna. Um evento traumático, uma desilusão ou o puro tédio levou você a abandonar as arenas e aplausos, usando sua experiência em torneios para viver aventuras.",
     "Pericia_Adicional": "Atuação, Luta",
-    "Poder_Adicional": "Atraente, Pão e Circo, Torcida, um poder de combate a sua escolha"
+    "poderes_id": [
+      "ATRAENTE",
+      "PAO_E_CIRCO",
+      "TORCIDA",
+      "PODER_DE_COMBATE_A_ESCOLHA"
+    ]
   },
   {
     "ID_Origem": "GUARDA",
     "Nome": "Guarda",
-    "Descricao": "Atuou como agente da lei, fazendo rondas tediosas e lidando com bêbados. Recebeu treinamento em combate e investigação antes de abandonar a milícia pela vida de aventureiro.",
+    "Descricao": "Você atuou como agente da lei em uma vila ou cidade. Nem de longe uma profissão tão glamorosa ou emocionante quanto parece; boa parte de seu trabalho resumia-se a guardar um portão, fazer rondas tediosas ou recolher bêbados em tavernas. Pelo menos você recebeu algum treino em investigação e combate. Também tem consigo alguma boa arma, que \"esqueceu\" de devolver quando abandonou a milícia para se tornar aventureiro.",
     "Pericia_Adicional": "Investigação, Luta, Percepção",
-    "Poder_Adicional": "Detetive, Investigador, um poder de combate a sua escolha"
+    "poderes_id": [
+      "DETETIVE",
+      "INVESTIGADOR",
+      "PODER_DE_COMBATE_A_ESCOLHA"
+    ]
   },
   {
     "ID_Origem": "HERDEIRO",
     "Nome": "Herdeiro",
-    "Descricao": "Pertence a uma linhagem tradicional de nobres, mercadores, conjuradores ou outra atividade. Recebeu treinamento e equipamentos adequados, mas agora questiona se deve seguir esse caminho.",
+    "Descricao": "Você pertence a uma linhagem de nobres, mercadores, conjuradores, acadêmicos, assassinos, ou outra atividade tradicional em sua família tão tradicional que, de você, não se espera outra coisa. Pode ser uma longa e antiquíssima ascendência, traçada até antes da Grande Batalha, ou você apenas é filho de uma importante personalidade. Talvez tenha nascido em alguma ordem de cavalaria em Bielefeld, ou uma influente estirpe da nobreza de Deheon, ou como filho de um célebre arquimago com planos de enviá-lo à Academia Arcana, ou até cresceu em um culto familiar secreto a um deus maligno. Graças a essa herança, recebeu treino e equipamento adequados. Mas você pretende mesmo seguir esse caminho?",
     "Pericia_Adicional": "Misticismo, Nobreza, Ofício",
-    "Poder_Adicional": "Comandar, Herança"
+    "poderes_id": [
+      "COMANDAR",
+      "HERANCA"
+    ]
   },
   {
     "ID_Origem": "HEROI_CAMPONES",
     "Nome": "Herói Camponês",
-    "Descricao": "Era o campeão de seu povoado, defendendo-o de monstros e desastres. Amado por todos, partiu para uma vida de aventuras em busca de feitos ainda maiores.",
+    "Descricao": "Quando o povoado foi atacado por goblins, você empunhou o forcado para expulsá-los. Quando o estábulo pegou fogo, você se arriscou para salvar todos os animais. Quando todos temiam a mansão assombrada na colina, você encontrou a carta de amor perdida que trouxe descanso à alma torturada. Você era o campeão local, amado pelo povo, mas também destinado a feitos maiores. Houve comoção quando você partiu para uma vida de aventuras, mas ninguém deixou de orar por seu sucesso. Talvez você até tenha sido presenteado com alguma arma ou item há tempos guardado no povoado.",
     "Pericia_Adicional": "Adestramento, Ofício",
-    "Poder_Adicional": "Coração Heroico, Sortudo, Surto Heroico, Torcida"
+    "poderes_id": [
+      "CORACAO_HEROICO",
+      "SORTUDO",
+      "SURTO_HEROICO",
+      "TORCIDA"
+    ]
   },
   {
     "ID_Origem": "MARUJO",
     "Nome": "Marujo",
-    "Descricao": "Trabalhou como tripulante em uma embarcação, seja um barco pesqueiro, navio pirata ou até mesmo um dirigível goblin. Sua vida foi passada nos mares e rios de Arton.",
+    "Descricao": "Você foi tripulante em uma embarcação um barco pesqueiro, galé pirata, caravela exploradora, trirreme dos minotauros... no Mar Negro, no Mar do Dragão-Rei ou mesmo ao longo do imenso Rio dos Deuses. Você também pode ter trabalhado em um veículo exótico, como um dirigível goblin, ou mesmo em uma embarcação mágica, como as naves vivas gog'magogue que viajam entre mundos!",
     "Pericia_Adicional": "Atletismo, Jogatina, Pilotagem",
-    "Poder_Adicional": "Acrobático, Passagem de Navio"
+    "poderes_id": [
+      "ACROBATICO",
+      "PASSAGEM_DE_NAVIO"
+    ]
   },
   {
     "ID_Origem": "MATEIRO",
     "Nome": "Mateiro",
-    "Descricao": "Aprendeu desde cedo a caçar animais selvagens para sustento ou esporte. Habilidoso em rastrear presas e colocar armadilhas, decidiu aplicar suas técnicas contra monstros.",
+    "Descricao": "Nem todos em Arton vivem em cidades confortavelmente abastecidas por fazendeiros, mineiros ou pescadores - muitas comunidades ainda obtêm sustento através da caça. Você aprendeu cedo a abater animais selvagens para colocar comida na mesa, ou como esporte de gosto duvidoso. Se você caça com reverência a Allihanna ou apenas coleciona troféus com orgulho, a escolha é sua. De qualquer forma, para alguém habituado a flechar cervos e colocar armadilhas para coelhos, combater ogros, demônios e dragões seria apenas o passo seguinte.",
     "Pericia_Adicional": "Atletismo, Furtividade, Sobrevivência",
-    "Poder_Adicional": "Lobo Solitário, Sentidos Aguçados, Vendedor de Carcaças"
+    "poderes_id": [
+      "LOBO_SOLITARIO",
+      "SENTIDOS_AGUCADOS",
+      "VENDEDOR_DE_CARCACAS"
+    ]
   },
   {
     "ID_Origem": "MEMBRO_DE_GUILDA",
     "Nome": "Membro de Guilda",
-    "Descricao": "Foi parte de uma grande guilda, seja de artesãos, magos, criminosos ou aventureiros. A organização forneceu treinamento e equipamento em troca de sua lealdade e serviços.",
+    "Descricao": "Você foi, ou ainda é, membro atuante em uma grande guilda uma associação de artesãos, mercadores, magos, criminosos ou mesmo aventureiros. A guilda forneceu o treinamento e equipamento necessários para suas atividades, esperando que você seja útil em troca. Você se manteve fiel a seus patronos, cumprindo missões e colhendo os benefícios de pertencer a uma vasta organização? Ou deixou essa vida para trás, sendo agora desprezado ou até caçado por seus antigos mestres?",
     "Pericia_Adicional": "Diplomacia, Enganação, Misticismo, Ofício",
-    "Poder_Adicional": "Foco em Perícia, Rede de Contatos"
+    "poderes_id": [
+      "FOCO_EM_PERICIA",
+      "REDE_DE_CONTATOS"
+    ]
   },
   {
     "ID_Origem": "MERCADOR",
     "Nome": "Mercador",
-    "Descricao": "Atuou como comerciante, seja em uma tenda, caravana ou no prestigioso mercado de Vectora. Anos de negociações e viagens lhe renderam equipamento e dinheiro para iniciar uma nova carreira.",
+    "Descricao": "Seguindo uma tradição de família, após herdar um estabelecimento ou apenas como um jovem empregado, você atuou como comerciante pelo menos por algum tempo. Uma tenda modesta em algum grande mercado urbano? Uma caravana mercante cruzando o Reinado? Um belo bazar na prestigiada cidade voadora de Vectora? Após alguns anos de negociações e jornadas (nem tão tranquilas quanto outros imaginam), você talvez não tenha ficado rico, mas reuniu algum equipamento e dinheiro suficientes para começar carreira como aventureiro.",
     "Pericia_Adicional": "Diplomacia, Intuição, Ofício",
-    "Poder_Adicional": "Negociação, Proficiência, Sortudo"
+    "poderes_id": [
+      "NEGOCIACAO",
+      "PROFICIENCIA",
+      "SORTUDO"
+    ]
   },
   {
     "ID_Origem": "MINERADOR",
     "Nome": "Minerador",
-    "Descricao": "Trabalhou nas profundezas da terra em busca de metais e gemas preciosas. A vida perigosa nos subterrâneos lhe rendeu bens valiosos e conhecimento sobre túneis e masmorras.",
+    "Descricao": "Ser aventureiro é a profissão mais perigosa de todas; ser mineiro, talvez a segunda mais perigosa. Você mergulhou nas profundezas da terra atrás de metais necessários à civilização ou riquezas em gemas preciosas. Enquanto humanos e outras raças consideram essa vida um pesadelo, quase todos os anões acreditam ser a mais feliz das carreiras. A escuridão e o sufocamento dos subterrâneos talvez tenham sido assustadores, mas trouxeram a você bens materiais valiosos, bem como informação profunda (sem trocadilhos) sobre túneis e masmorras.",
     "Pericia_Adicional": "Atletismo, Fortitude, Ofício (minerador)",
-    "Poder_Adicional": "Ataque Poderoso, Escavador, Sentidos Aguçados"
+    "poderes_id": [
+      "ATAQUE_PODEROSO",
+      "ESCAVADOR",
+      "SENTIDOS_AGUCADOS"
+    ]
   },
   {
     "ID_Origem": "NOMADE",
     "Nome": "Nômade",
-    "Descricao": "Nunca pertenceu a um só lugar, viajando constantemente com sua família em caravanas, peregrinações ou como parte de um povo sem terra. A estrada é seu verdadeiro lar.",
+    "Descricao": "Até onde se lembra, você nunca pertenceu a um só lugar. Sua família viajava constantemente, como parte de alguma grande caravana comercial, peregrinação religiosa ou algum povo primitivo que nunca praticou agricultura. Ou talvez suas razões para viajar sejam bastante diferentes e pessoais após a quase extinção de seu povo, muitos elfos temem criar raízes, enquanto a deusa Valkaria exige que seus devotos se mantenham sempre em viagem. Para você, habituado às estradas e sem laços com nenhuma terra, bastou um pequeno passo para se tornar aventureiro.",
     "Pericia_Adicional": "Cavalgar, Pilotagem, Sobrevivência",
-    "Poder_Adicional": "Lobo Solitário, Mochileiro, Sentidos Aguçados"
+    "poderes_id": [
+      "LOBO_SOLITARIO",
+      "MOCHILEIRO",
+      "SENTIDOS_AGUCADOS"
+    ]
   },
   {
     "ID_Origem": "PIVETE",
     "Nome": "Pivete",
-    "Descricao": "Cresceu nas ruas, aprendendo a sobreviver pedindo esmolas, roubando bolsas ou cumprindo tarefas para bandidos. A vida de aventureiro foi sua única chance de uma vida melhor.",
+    "Descricao": "Você era uma criança de rua. Não conheceu seus pais, foi abandonado por eles ou fugiu para evitar maus tratos. Sem muitas escolhas na vida, aprendeu cedo a sobreviver em grandes cidades, pedindo esmolas, roubando bolsas ou cumprindo pequenas tarefas para bandidos. Tornar-se aventureiro não parecia apenas um jeito de ficar rico e famoso, mas também a única chance de uma vida melhor. Talvez você não tenha as armaduras e mantos chiques de seus companheiros, mas sabe se virar nas ruas melhor que ninguém.",
     "Pericia_Adicional": "Furtividade, Iniciativa, Ladinagem",
-    "Poder_Adicional": "Acrobático, Aparência Inofensiva, Quebra-Galho"
+    "poderes_id": [
+      "ACROBATICO",
+      "APARENCIA_INOFENSIVA",
+      "QUEBRA-GALHO"
+    ]
   },
   {
     "ID_Origem": "REFUGIADO",
     "Nome": "Refugiado",
-    "Descricao": "Sobreviveu a uma grande guerra ou tragédia, como a queda de Lenórienn ou a destruição de Tamu-ra. O trauma e as provações o tornaram um sobrevivente tenaz e amargurado.",
+    "Descricao": "Neste mundo assolado por tantas guerras e tragédias, você acabou sobrevivendo a alguma delas. Sendo elfo, estava presente durante a sofrida queda de Lenórienn. Escapou à destruição de Tamu-ra. Teve sorte em sair do caminho de Mestre Arsenal, conseguiu esconder-se das forças puristas ou testemunhou a chegada da Flecha de Fogo e viveu para contar a história. Trauma e privações talvez tenham tornado você amargo, sombrio, embrutecido... mas também um sobrevivente tenaz, acostumado a uma vida perigosa.",
     "Pericia_Adicional": "Fortitude, Reflexos, Vontade",
-    "Poder_Adicional": "Estoico, Vontade de Ferro"
+    "poderes_id": [
+      "ESTOICO",
+      "VONTADE_DE_FERRO"
+    ]
   },
   {
     "ID_Origem": "SEGUIDOR",
     "Nome": "Seguidor",
-    "Descricao": "Viveu na companhia de um herói, atuando como escudeiro, criado ou ajudante. Essa experiência lhe proporcionou aprendizado valioso e uma lembrança de seu antigo mestre.",
+    "Descricao": "Você não nasceu herói, mas viveu algum tempo na companhia de um. Pode ter sido escudeiro de um cavaleiro de Khalmyr, garoto de recados para um ladino, criado de um nobre... enfim, um ajudante para um aventureiro de verdade. Durante esse tempo adquiriu aprendizado valioso, testemunhou eventos incríveis, mas você não seria um seguidor para sempre. Como ocorreu a separação? Você apenas disse adeus e trilhou seu próprio caminho? Seu mestre desapareceu de forma misteriosa ou foi assassinado diante de seus olhos? Você ficou com parte de seus itens, como presente ou lembrança?",
     "Pericia_Adicional": "Adestramento, Ofício",
-    "Poder_Adicional": "Antigo Mestre, Proficiência, Surto Heroico"
+    "poderes_id": [
+      "ANTIGO_MESTRE",
+      "PROFICIENCIA",
+      "SURTO_HEROICO"
+    ]
   },
   {
     "ID_Origem": "SELVAGEM",
     "Nome": "Selvagem",
-    "Descricao": "Nascido em uma tribo bárbara ou criado por animais em uma região remota. Sua origem é exótica, talvez até divina ou demoníaca, e a civilização ainda é um mistério para você.",
+    "Descricao": "Você nasceu em uma tribo de bárbaros incultos ou tem uma origem bem mais exótica. Perdeu-se dos pais verdadeiros em alguma região remota, sobrevivendo graças aos cuidados de um eremita, ou criado por animais, ou por pura bondade dos deuses. Você pode nem mesmo ter nascido de pais humanoides talvez seja cria de dragões, demônios ou deuses, com poderes a serem revelados no momento certo. Será que você ainda teme a civilização, assustando-se com uma simples fogueira? Ou já aprendeu algumas coisas, graças a seus novos companheiros?",
     "Pericia_Adicional": "Percepção, Reflexos, Sobrevivência",
-    "Poder_Adicional": "Lobo Solitário, Vida Rústica, Vitalidade"
+    "poderes_id": [
+      "LOBO_SOLITARIO",
+      "VIDA_RUSTICA",
+      "VITALIDADE"
+    ]
   },
   {
     "ID_Origem": "SOLDADO",
     "Nome": "Soldado",
-    "Descricao": "Alistou-se em um grande exército, onde recebeu treinamento em combate e equipamento. Seja como desertor ou dispensado com honras, abandonou a vida militar pela de aventureiro.",
+    "Descricao": "Deheon. Bielefeld. A Supremacia Purista. Em Arton existem vastas forças militares. Ainda jovem, você se alistou (ou foi convocado) como soldado em um grande exército. Independentemente de sua função exata dentro da máquina de guerra infantaria, cavalaria, arqueiro, cozinheiro..., você recebeu treinamento em combate e equipamento decente. Mas em alguma ocasião você abandonou a vida militar para se tornar aventureiro. Foi dispensado com honras, após uma grande façanha? Sobreviveu a um conflito sangrento? Desertou antes de um massacre?",
     "Pericia_Adicional": "Fortitude, Guerra, Luta, Pontaria",
-    "Poder_Adicional": "Influência Militar, um poder de combate a sua escolha"
+    "poderes_id": [
+      "INFLUENCIA_MILITAR",
+      "PODER_DE_COMBATE_A_ESCOLHA"
+    ]
   },
   {
     "ID_Origem": "TAVERNEIRO",
     "Nome": "Taverneiro",
-    "Descricao": "Trabalhou em um estabelecimento frequentado por aventureiros, ouvindo suas histórias e bravatas. Cansado de limpar canecas, decidiu buscar sua própria fortuna e fama.",
+    "Descricao": "Não é incomum que heróis aposentados se tornem donos de tavernas ou estalagens, mas o contrário também pode ocorrer. Você foi dono, filho do dono ou empregado em algum lugar frequentado por aventureiros esses tipos sempre cheios de ouro e bravatas, atiçando sua ambição. Claro, eles nem sempre mencionam os horrores, amputações e mortes! Ainda assim, parece bem melhor que a vida atrás do balcão, limpando canecas sujas. Você ouviu todas as grandes histórias, trocou socos em algumas brigas e até ganhou uma lembrança ou outra de algum herói bêbado.",
     "Pericia_Adicional": "Diplomacia, Jogatina, Ofício (cozinheiro)",
-    "Poder_Adicional": "Gororoba, Proficiência, Vitalidade"
+    "poderes_id": [
+      "GOROROBA",
+      "PROFICIENCIA",
+      "VITALIDADE"
+    ]
   },
   {
     "ID_Origem": "TRABALHADOR",
     "Nome": "Trabalhador",
-    "Descricao": "De origem humilde, trabalhou duro desde jovem em tarefas braçais, como carregar pedras, puxar arados ou transportar cargas. A carreira de aventureiro pareceu muito mais atraente.",
+    "Descricao": "Nenhum glamour aqui, apenas trabalho braçal pesado. De origem humilde, sem grandes chances na vida, você trabalhou duro desde muito jovem. Transportou pedras na construção de templos e castelos, carregou sacas de grãos em fazendas, empilhou cargas em portos, puxou arado feito um animal de tração. Talvez sua vida tenha sido um pouco melhor, como servo em um palácio. Ou muito pior, arrastando ou queimando corpos em campos de batalha. Não é surpresa que a carreira como aventureiro, mesmo perigosa, tenha parecido muito mais atraente.",
     "Pericia_Adicional": "Atletismo, Fortitude",
-    "Poder_Adicional": "Atlético, Esforçado"
+    "poderes_id": [
+      "ATLETICO",
+      "ESFORCADO"
+    ]
   }
 ]
